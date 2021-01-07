@@ -1,1 +1,0 @@
-var framework={extension:{fireEvent(){},attachEvent(){},setItem(){}},browser:{fireEvent(){},attachEvent(){}}};

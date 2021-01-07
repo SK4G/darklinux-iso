@@ -1267,10 +1267,20 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- Autostart applications
 awful.spawn.with_shell("~/.config/awesome/autostart.sh")
 awful.spawn.with_shell("picom -b --config  $HOME/.config/awesome/picom.conf")
+awful.spawn.with_shell("nm-applet")
+awful.spawn.with_shell("pamac-tray")
+awful.spawn.with_shell("blueberry-tray")
+awful.spawn.with_shell("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
+awful.spawn.with_shell("numlockx on")
+awful.spawn.with_shell("conky -c $HOME/.config/awesome/system-overview")
+awful.spawn.with_shell("feh --bg-fill $HOME/.config/awesome/themes/copland/starwarsblue.jpg &")
+--awful.spawn.with_shell("xfce4-power-manager")
+--awful.spawn.with_shell("nitrogen --restore")
+--awful.spawn.with_shell("")
+
 -- uncomment the below awful.spawns 
 -- and add application you wish to spawn in between ""
 
---awful.spawn("")
 --awful.spawn("kodi")
 --awful.spawn("stremio")
 --awful.spawn("plexmediaplayer")
@@ -1280,3 +1290,4 @@ awful.spawn.with_shell("picom -b --config  $HOME/.config/awesome/picom.conf")
 --awful.spawn("chromium --app=http://yoursports.stream/live?v=espn")
 --awful.spawn("chromium --app=http://yoursports.stream/live?v=espn")
 --awful.spawn("mpv")
+--awful.spawn("")
