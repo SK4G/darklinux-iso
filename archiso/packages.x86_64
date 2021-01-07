@@ -245,7 +245,7 @@ poppler-qt5
 #########################################################################
 
 ###applications
-atom
+#atom
 chromium
 #darktable
 #deadbeef
@@ -312,7 +312,7 @@ kodi-addons
 #adapta-gtk-theme
 arc-gtk-theme
 kvantum-qt5
-openbox-arc-git
+#openbox-arc-git
 
 ###utilities
 arandr
@@ -357,7 +357,7 @@ libmtp
 laptop-detect
 lsb-release
 mlocate
-nomacs
+#nomacs
 oh-my-zsh-git
 p7zip
 #plank
@@ -527,10 +527,10 @@ arcolinux-neofetch-git
 arcolinux-nitrogen-git
 #arcolinux-oblogout
 #arcolinux-oblogout-themes-git
-arcolinux-obmenu-generator-git
+#arcolinux-obmenu-generator-git
 #arcolinux-obmenu-generator-minimal-git
 #arcolinux-obmenu-generator-xtended-git
-arcolinux-openbox-themes-git
+#arcolinux-openbox-themes-git
 arcolinux-pipemenus-git
 #arcolinux-plank-git
 #arcolinux-plank-themes-git
@@ -561,7 +561,7 @@ arcolinux-zsh-git
 #                           ARCOLINUX DESKTOP FOLDER
 ###########################################################################
 
-arcolinux-awesome-git
+#arcolinux-awesome-git
 #arcolinux-bspwm-git
 #arcolinux-budgie-git
 #arcolinux-cinnamon-git
@@ -632,7 +632,7 @@ arcolinux-awesome-dconf-git
 #arcolinux-budgie-dconf-git
 #arcolinux-cinnamon-dconf-git
 #arcolinux-cwm-dconf-git
-arcolinux-dconf-git
+#arcolinux-dconf-git
 #arcolinux-deepin-dconf-git
 #arcolinux-dwm-dconf-git
 #arcolinux-enlightenment-dconf-git
