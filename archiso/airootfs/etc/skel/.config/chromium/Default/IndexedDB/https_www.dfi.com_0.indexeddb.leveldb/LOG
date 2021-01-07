@@ -1,5 +1,0 @@
-2020/12/27-02:08:29.730 125f0 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_www.dfi.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/12/27-02:10:11.666 1534a Level-0 table #5: started
-2020/12/27-02:10:11.667 1534a Level-0 table #5: 14569 bytes OK
-2020/12/27-02:10:11.668 1534a Delete type=0 #3
-2020/12/27-02:10:11.668 1534a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

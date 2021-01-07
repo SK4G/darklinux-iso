@@ -1,7 +1,0 @@
-2020/12/25-23:25:09.657 15909 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_www.techidence.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/12/25-23:25:09.657 15909 Recovering log #3
-2020/12/25-23:25:09.657 15909 Reusing old log /home/luiz/.config/chromium/Default/IndexedDB/https_www.techidence.com_0.indexeddb.leveldb/000003.log 
-2020/12/25-23:28:48.512 168e5 Level-0 table #5: started
-2020/12/25-23:28:48.513 168e5 Level-0 table #5: 8920 bytes OK
-2020/12/25-23:28:48.514 168e5 Delete type=0 #3
-2020/12/25-23:28:48.514 168e5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

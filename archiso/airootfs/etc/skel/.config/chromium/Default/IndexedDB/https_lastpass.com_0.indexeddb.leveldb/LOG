@@ -1,5 +1,0 @@
-2021/01/03-03:59:46.377 13d9c Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_lastpass.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/01/03-04:04:27.491 1464a Level-0 table #5: started
-2021/01/03-04:04:27.493 1464a Level-0 table #5: 1918 bytes OK
-2021/01/03-04:04:27.494 1464a Delete type=0 #3
-2021/01/03-04:04:27.495 1464a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,5 +1,0 @@
-2020/12/25-17:37:17.287 18206 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_software.intel.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/12/25-17:59:00.875 1a56c Level-0 table #5: started
-2020/12/25-17:59:00.875 1a56c Level-0 table #5: 996 bytes OK
-2020/12/25-17:59:00.876 1a56c Delete type=0 #3
-2020/12/25-17:59:00.876 1a56c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
