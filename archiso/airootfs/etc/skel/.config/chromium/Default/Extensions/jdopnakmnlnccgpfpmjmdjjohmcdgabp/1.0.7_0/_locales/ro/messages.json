@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "Instrument gratuit gratuit pentru captura video de înaltă calitate din fila, zona paginii și ecran complet, cu microfon, cameră web și sistem audio"
+   },
+   "app_name": {
+      "message": "Recorder ecran"
+   },
+   "btn_1": {
+      "message": "Înregistrați zona fila Chrome"
+   },
+   "btn_2": {
+      "message": "Înregistrați fila Chrome completă"
+   },
+   "btn_3": {
+      "message": "Înregistrați-vă desktop"
+   },
+   "msg_1": {
+      "message": "Noua filă va fi deschisă și vi se va solicita să acordați acces la microfon la înregistrare"
+   },
+   "msg_10": {
+      "message": "Încă nu vă puteți înregistra microfonul"
+   },
+   "msg_11": {
+      "message": "Da sunt sigur!"
+   },
+   "msg_12": {
+      "message": "Restabilește setările implicite"
+   },
+   "msg_13": {
+      "message": "Noua filă va fi deschisă. Vă rugăm să dați acces camerei"
+   },
+   "msg_14": {
+      "message": "Încă nu vă puteți înregistra camera"
+   },
+   "msg_15": {
+      "message": "Mulțumesc! Acum puteți înregistra cu aparatul foto"
+   },
+   "msg_16": {
+      "message": "Mulțumesc! Acum puteți înregistra cu microfonul"
+   },
+   "msg_2": {
+      "message": "Noua filă va fi deschisă și vi se va solicita să acordați acces camerei dvs. la înregistrare"
+   },
+   "msg_3": {
+      "message": "Captarea zonei din această pagină este dezactivată de permisiunile browserului. Vă rugăm să observați conform regulilor extensiei Chrome Web Store nu pot funcționa pe paginile magazinului și pe pagina principală."
+   },
+   "msg_4": {
+      "message": "Eroare"
+   },
+   "msg_5": {
+      "message": "Esti sigur?"
+   },
+   "msg_6": {
+      "message": "Anulare"
+   },
+   "msg_7": {
+      "message": "Noua filă va fi deschisă, vă rugăm să dați acces la microfon"
+   },
+   "msg_8": {
+      "message": "Vă rugăm, acordați acces"
+   },
+   "msg_9": {
+      "message": "Anulat"
+   },
+   "sub_1": {
+      "message": "Permite înregistrarea vocii de la microfon."
+   },
+   "sub_2": {
+      "message": "Acesta adaugă sunet de sistem de la boxele dvs."
+   },
+   "sub_3": {
+      "message": "Permite captarea video de la camera dvs."
+   },
+   "sub_4": {
+      "message": "Calitate video de ieșire."
+   },
+   "tab_1": {
+      "message": "Zonă"
+   },
+   "tab_2": {
+      "message": "Tab"
+   },
+   "tab_3": {
+      "message": "Ecran"
+   },
+   "text_1": {
+      "message": "Înregistrați voce"
+   },
+   "text_10": {
+      "message": "Vă rugăm să permiteți REC să acceseze microfonul"
+   },
+   "text_2": {
+      "message": "Sunetul sistemului de înregistrare"
+   },
+   "text_3": {
+      "message": "Capturați-vă camera"
+   },
+   "text_4": {
+      "message": "Noapte"
+   },
+   "text_5": {
+      "message": "Zi"
+   },
+   "text_6": {
+      "message": "Ecran înregistrare pe unitatea dvs. Google"
+   },
+   "text_7": {
+      "message": "Zona ecranului de înregistrare"
+   },
+   "text_8": {
+      "message": "Calitatea videoclipului de ieșire"
+   },
+   "text_9": {
+      "message": "Vă rugăm să permiteți ecranului Recorder să vă acceseze camera"
+   },
+   "text_rate": {
+      "message": "Vă rugăm să ne evaluați!"
+   },
+   "text_tutorial": {
+      "message": "Tutorial de ajutor, cum se folosește aplicația"
+   }
+}

@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "Nemokamas paprastas įrankis aukštos kokybės vaizdo įrašymui iš skirtuko, puslapio srities ir viso ekrano, naudojant mikrofoną, interneto kamerą ir sistemos garsą"
+   },
+   "app_name": {
+      "message": "Ekrano grotuvas"
+   },
+   "btn_1": {
+      "message": "Įrašykite „Chrome“ skirtukų sritį"
+   },
+   "btn_2": {
+      "message": "Įrašyti visą „Chrome“ skirtuką"
+   },
+   "btn_3": {
+      "message": "Įrašykite savo darbalaukį"
+   },
+   "msg_1": {
+      "message": "Bus atidarytas naujas skirtukas ir jūsų paprašys suteikti prieigą prie savo mikrofono įrašymui"
+   },
+   "msg_10": {
+      "message": "Kol kas negalite įrašyti savo mikrofono"
+   },
+   "msg_11": {
+      "message": "Taip, esu tikras!"
+   },
+   "msg_12": {
+      "message": "Atstatyti pirminius nustatymus"
+   },
+   "msg_13": {
+      "message": "Bus atidarytas naujas skirtukas, suteikite prieigą prie savo fotoaparato"
+   },
+   "msg_14": {
+      "message": "Kol kas negalite įrašyti savo fotoaparato"
+   },
+   "msg_15": {
+      "message": "Ačiū! Dabar galite įrašyti naudodami savo fotoaparatą"
+   },
+   "msg_16": {
+      "message": "Ačiū! Dabar galite įrašyti naudodamiesi savo mikrofonu"
+   },
+   "msg_2": {
+      "message": "Bus atidarytas naujas skirtukas ir jūsų bus paprašyta suteikti prieigą prie jūsų vaizdo kameros įrašymui"
+   },
+   "msg_3": {
+      "message": "Šiame puslapyje gavimo sritis neleidžiama pagal naršyklės leidimus. Atminkite, kad pagal „Chrome“ internetinės parduotuvės plėtinio taisykles parduotuvių ir pagrindiniame puslapiuose negalima veikti."
+   },
+   "msg_4": {
+      "message": "Klaida"
+   },
+   "msg_5": {
+      "message": "Ar tu tuo tikras?"
+   },
+   "msg_6": {
+      "message": "atšaukti"
+   },
+   "msg_7": {
+      "message": "Bus atidarytas naujas skirtukas, suteikite prieigą prie savo mikrofono"
+   },
+   "msg_8": {
+      "message": "Prašau suteikti prieigą"
+   },
+   "msg_9": {
+      "message": "Atšauktas"
+   },
+   "sub_1": {
+      "message": "Tai leidžia įrašyti balsą iš savo mikrofono."
+   },
+   "sub_2": {
+      "message": "Tai prideda sistemos garsą iš garsiakalbių."
+   },
+   "sub_3": {
+      "message": "Tai leidžia filmuoti iš savo fotoaparato."
+   },
+   "sub_4": {
+      "message": "Išvesties vaizdo kokybė."
+   },
+   "tab_1": {
+      "message": "Plotas"
+   },
+   "tab_2": {
+      "message": "Skirtukas"
+   },
+   "tab_3": {
+      "message": "Ekranas"
+   },
+   "text_1": {
+      "message": "Įrašyti balsą"
+   },
+   "text_10": {
+      "message": "Leiskite REC pasiekti jūsų mikrofoną"
+   },
+   "text_2": {
+      "message": "Įrašyti sistemos garsą"
+   },
+   "text_3": {
+      "message": "Užfiksuokite savo fotoaparatą"
+   },
+   "text_4": {
+      "message": "Naktis"
+   },
+   "text_5": {
+      "message": "diena"
+   },
+   "text_6": {
+      "message": "Ekrano įrašas į „Google“ diską"
+   },
+   "text_7": {
+      "message": "Įrašo ekrano sritis"
+   },
+   "text_8": {
+      "message": "Išvesties vaizdo kokybė"
+   },
+   "text_9": {
+      "message": "Prašome leisti „Screen Recorder“ pasiekti savo fotoaparatą"
+   },
+   "text_rate": {
+      "message": "Prašau Įvertink mus!"
+   },
+   "text_tutorial": {
+      "message": "Pagalbos pamoka, kaip naudotis programa"
+   }
+}

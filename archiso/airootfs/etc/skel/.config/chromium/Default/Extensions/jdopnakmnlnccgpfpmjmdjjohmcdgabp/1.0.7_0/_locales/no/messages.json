@@ -1,0 +1,122 @@
+{
+  "app_name": {
+    "message": "Skjermopptaker"
+  },
+  "app_description": {
+    "message": "Gratis enkelt verktøy for videoopptak av høy kvalitet fra fane, område av siden og fullskjerm, med mikrofon, webkamera og systemlyd"
+  },
+  "msg_1": {
+    "message": "Ny fane åpnes, og du vil bli bedt om å gi tilgang til mikrofonen din til opptak"
+  },
+  "msg_2": {
+    "message": "Ny fane åpnes, og du vil bli bedt om å gi tilgang til kameraet ditt til opptak"
+  },
+  "msg_3": {
+    "message": "Fangstområdet på denne siden er deaktivert av nettlesertillatelser. Vær oppmerksom på at reglene i Chrome Web Store-utvidelsen ikke kan fungere på butikksidene og hjemmesiden."
+  },
+  "msg_4": {
+    "message": "Feil"
+  },
+  "msg_5": {
+    "message": "Er du sikker?"
+  },
+  "msg_6": {
+    "message": "Avbryt"
+  },
+  "msg_7": {
+    "message": "Ny fane åpnes. Gi tilgang til mikrofonen din"
+  },
+  "msg_8": {
+    "message": "Vennligst gi tilgang"
+  },
+  "msg_9": {
+    "message": "avbrutt"
+  },
+  "msg_10": {
+    "message": "Du kan ikke spille inn mikrofonen din ennå"
+  },
+  "msg_11": {
+    "message": "Ja jeg er sikker!"
+  },
+  "msg_12": {
+    "message": "Gjenopprett standardinnstillinger"
+  },
+  "msg_13": {
+    "message": "Ny fane åpnes. Gi tilgang til kameraet"
+  },
+  "msg_14": {
+    "message": "Du kan ikke ta opp kameraet ennå"
+  },
+  "msg_15": {
+    "message": "Takk skal du ha! Nå kan du ta opp med kameraet"
+  },
+  "msg_16": {
+    "message": "Takk skal du ha! Nå kan du ta opp med mikrofonen din"
+  },
+  "tab_1": {
+    "message": "Område"
+  },
+  "tab_2": {
+    "message": "Tab"
+  },
+  "tab_3": {
+    "message": "Skjerm"
+  },
+  "btn_1": {
+    "message": "Registrer Chrome Tab-området"
+  },
+  "btn_2": {
+    "message": "Spill inn full Chrome-fane"
+  },
+  "btn_3": {
+    "message": "Spill inn skrivebordet"
+  },
+  "text_1": {
+    "message": "Spille inn stemme"
+  },
+  "sub_1": {
+    "message": "Det gjør det mulig å spille inn stemme fra mikrofonen din."
+  },
+  "text_2": {
+    "message": "Spill inn systemlyd"
+  },
+  "sub_2": {
+    "message": "Den legger til systemlyd fra høyttalerne dine."
+  },
+  "text_3": {
+    "message": "Ta kameraet ditt"
+  },
+  "sub_3": {
+    "message": "Det gjør det mulig å ta video fra kameraet."
+  },
+  "sub_4": {
+    "message": "Utgang videokvalitet."
+  },
+  "text_4": {
+    "message": "Natt"
+  },
+  "text_5": {
+    "message": "Dag"
+  },
+  "text_6": {
+    "message": "Skjermopptak til Google-stasjonen"
+  },
+  "text_7": {
+    "message": "Record Screen Area"
+  },
+  "text_8": {
+    "message": "Kvalitet på output-video"
+  },
+  "text_9": {
+    "message": "Gi skjermopptaker tilgang til kameraet"
+  },
+  "text_10": {
+    "message": "Gi REC tilgang til mikrofonen din"
+  },
+  "text_rate": {
+    "message": "Vennligst ranger oss!"
+  },
+  "text_tutorial": {
+    "message": "Hjelpeopplæring, hvordan du bruker app"
+  }
+}

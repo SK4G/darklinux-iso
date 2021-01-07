@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "Eina senzilla gratuïta per a la captura de vídeo d&#39;alta qualitat des de la pestanya, àrea de la pàgina i pantalla completa, amb micròfon, càmera web i àudio del sistema"
+   },
+   "app_name": {
+      "message": "Gravadora de pantalla"
+   },
+   "btn_1": {
+      "message": "Grava l’àrea de la pestanya Chrome"
+   },
+   "btn_2": {
+      "message": "Registra la pestanya Chrome completa"
+   },
+   "btn_3": {
+      "message": "Grava l&#39;escriptori"
+   },
+   "msg_1": {
+      "message": "S&#39;obrirà la pestanya nova i se us demanarà que concediu accés al vostre micròfon a la gravació"
+   },
+   "msg_10": {
+      "message": "Encara no podeu gravar el vostre micròfon"
+   },
+   "msg_11": {
+      "message": "Sí, estic segur!"
+   },
+   "msg_12": {
+      "message": "Restaureu la configuració predeterminada"
+   },
+   "msg_13": {
+      "message": "S&#39;obrirà una pestanya nova. Dóna accés a la càmera"
+   },
+   "msg_14": {
+      "message": "Encara no podeu gravar la càmera"
+   },
+   "msg_15": {
+      "message": "Gràcies! Ara podeu gravar amb la vostra càmera"
+   },
+   "msg_16": {
+      "message": "Gràcies! Ara pots gravar amb el teu micròfon"
+   },
+   "msg_2": {
+      "message": "S&#39;obrirà la pestanya nova i se us demanarà que concediu accés a la vostra càmera a la gravació"
+   },
+   "msg_3": {
+      "message": "Els permisos del navegador estan deshabilitats per capturar l’àrea d’aquesta pàgina. Tingueu en compte que, segons les regles de l&#39;extensió de Chrome Web Store, no es pot treballar a les pàgines de la botiga i a la pàgina principal."
+   },
+   "msg_4": {
+      "message": "Error"
+   },
+   "msg_5": {
+      "message": "Estàs segur?"
+   },
+   "msg_6": {
+      "message": "Cancel · lar"
+   },
+   "msg_7": {
+      "message": "S&#39;obrirà la pestanya nova. Dóna accés al teu micròfon"
+   },
+   "msg_8": {
+      "message": "Per favor, concediu accés"
+   },
+   "msg_9": {
+      "message": "Cancel·lat"
+   },
+   "sub_1": {
+      "message": "Permet gravar la veu des del vostre micròfon."
+   },
+   "sub_2": {
+      "message": "Afegiu so del sistema dels altaveus."
+   },
+   "sub_3": {
+      "message": "Permet capturar vídeo des de la càmera."
+   },
+   "sub_4": {
+      "message": "Qualitat de vídeo de sortida."
+   },
+   "tab_1": {
+      "message": "Àrea"
+   },
+   "tab_2": {
+      "message": "Pestanya"
+   },
+   "tab_3": {
+      "message": "Pantalla"
+   },
+   "text_1": {
+      "message": "Record Voice"
+   },
+   "text_10": {
+      "message": "Permiteu que REC accedeixi al vostre micròfon"
+   },
+   "text_2": {
+      "message": "Sistema de registre sonor"
+   },
+   "text_3": {
+      "message": "Captura la teva càmera"
+   },
+   "text_4": {
+      "message": "Nit"
+   },
+   "text_5": {
+      "message": "dia"
+   },
+   "text_6": {
+      "message": "Registre de pantalla a la vostra unitat de Google"
+   },
+   "text_7": {
+      "message": "Àrea de la pantalla de registre"
+   },
+   "text_8": {
+      "message": "Qualitat de vídeo de sortida"
+   },
+   "text_9": {
+      "message": "Permeteu que la gravadora de pantalla accedeixi a la vostra càmera"
+   },
+   "text_rate": {
+      "message": "Valoreu-nos!"
+   },
+   "text_tutorial": {
+      "message": "Tutorial d&#39;ajuda, com utilitzar l&#39;aplicació"
+   }
+}

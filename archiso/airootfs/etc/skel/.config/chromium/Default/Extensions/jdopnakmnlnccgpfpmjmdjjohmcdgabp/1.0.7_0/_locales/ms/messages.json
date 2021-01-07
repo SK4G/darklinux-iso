@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "Alat Mudah Percuma untuk merakam video berkualiti tinggi dari Tab, Luas halaman dan Skrin penuh, dengan Mic, Kamera Web dan audio Sistem"
+   },
+   "app_name": {
+      "message": "Perakam Skrin"
+   },
+   "btn_1": {
+      "message": "Rakam Kawasan Tab Chrome"
+   },
+   "btn_2": {
+      "message": "Rakam Tab Chrome Penuh"
+   },
+   "btn_3": {
+      "message": "Rakam Desktop Anda"
+   },
+   "msg_1": {
+      "message": "Tab Baru akan dibuka, dan anda akan diminta untuk memberikan akses ke Mikrofon anda ke rakaman"
+   },
+   "msg_10": {
+      "message": "Anda belum dapat merakam mikrofon anda"
+   },
+   "msg_11": {
+      "message": "Ya saya pasti!"
+   },
+   "msg_12": {
+      "message": "Pulihkan tetapan lalai"
+   },
+   "msg_13": {
+      "message": "Tab baru akan dibuka, berikan akses ke kamera anda"
+   },
+   "msg_14": {
+      "message": "Anda belum dapat merakam kamera anda"
+   },
+   "msg_15": {
+      "message": "Terima kasih! Sekarang anda boleh merakam dengan Kamera anda"
+   },
+   "msg_16": {
+      "message": "Terima kasih! Sekarang anda boleh merakam dengan Mikrofon anda"
+   },
+   "msg_2": {
+      "message": "Tab Baru akan dibuka, dan anda akan diminta untuk memberikan akses ke Kamera anda ke rakaman"
+   },
+   "msg_3": {
+      "message": "Menangkap Kawasan di halaman ini dilumpuhkan oleh kebenaran penyemak imbas. Harap, perhatikan mengikut peraturan peluasan Kedai Web Chrome tidak dapat berfungsi di halaman gedung dan halaman utama."
+   },
+   "msg_4": {
+      "message": "Ralat"
+   },
+   "msg_5": {
+      "message": "Adakah anda pasti?"
+   },
+   "msg_6": {
+      "message": "Batal"
+   },
+   "msg_7": {
+      "message": "Tab baru akan dibuka, berikan akses ke mikrofon anda"
+   },
+   "msg_8": {
+      "message": "Tolong, beri akses"
+   },
+   "msg_9": {
+      "message": "Dibatalkan"
+   },
+   "sub_1": {
+      "message": "Ia memungkinkan untuk merakam suara dari mikrofon anda."
+   },
+   "sub_2": {
+      "message": "Ia menambah bunyi sistem dari pembesar suara anda."
+   },
+   "sub_3": {
+      "message": "Ia membolehkan merakam video dari kamera anda."
+   },
+   "sub_4": {
+      "message": "Kualiti Video Keluaran."
+   },
+   "tab_1": {
+      "message": "Kawasan"
+   },
+   "tab_2": {
+      "message": "Tab"
+   },
+   "tab_3": {
+      "message": "Skrin"
+   },
+   "text_1": {
+      "message": "Rakam Suara"
+   },
+   "text_10": {
+      "message": "Izinkan REC mengakses Mikrofon anda"
+   },
+   "text_2": {
+      "message": "Rakam Suara Sistem"
+   },
+   "text_3": {
+      "message": "Tangkap Kamera Anda"
+   },
+   "text_4": {
+      "message": "Malam"
+   },
+   "text_5": {
+      "message": "hari"
+   },
+   "text_6": {
+      "message": "Rakam Skrin ke pemacu Google Anda"
+   },
+   "text_7": {
+      "message": "Kawasan Skrin Rakaman"
+   },
+   "text_8": {
+      "message": "Kualiti Video Hasil"
+   },
+   "text_9": {
+      "message": "Benarkan Perakam Skrin mengakses Kamera anda"
+   },
+   "text_rate": {
+      "message": "Sila Berikan Kami!"
+   },
+   "text_tutorial": {
+      "message": "Tutorial bantuan, cara menggunakan aplikasi"
+   }
+}

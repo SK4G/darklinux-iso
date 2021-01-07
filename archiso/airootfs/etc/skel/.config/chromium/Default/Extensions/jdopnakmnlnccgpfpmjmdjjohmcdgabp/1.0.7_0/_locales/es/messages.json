@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "Herramienta simple y gratuita para capturar videos de alta calidad desde la pestaña, el área de la página y la pantalla completa, con micrófono, cámara web y audio del sistema"
+   },
+   "app_name": {
+      "message": "Grabador de pantalla"
+   },
+   "btn_1": {
+      "message": "Grabar área de pestaña de Chrome"
+   },
+   "btn_2": {
+      "message": "Grabar pestaña completa de Chrome"
+   },
+   "btn_3": {
+      "message": "Graba tu escritorio"
+   },
+   "msg_1": {
+      "message": "Se abrirá una nueva pestaña y se le pedirá que otorgue acceso a su micrófono para grabar"
+   },
+   "msg_10": {
+      "message": "Aún no puedes grabar tu micrófono"
+   },
+   "msg_11": {
+      "message": "¡Sí, estoy seguro!"
+   },
+   "msg_12": {
+      "message": "Restaurar la configuración predeterminada"
+   },
+   "msg_13": {
+      "message": "Se abrirá una nueva pestaña, dé acceso a su cámara"
+   },
+   "msg_14": {
+      "message": "Aún no puedes grabar tu cámara"
+   },
+   "msg_15": {
+      "message": "¡Gracias! Ahora puedes grabar con tu cámara"
+   },
+   "msg_16": {
+      "message": "¡Gracias! Ahora puedes grabar con tu micrófono"
+   },
+   "msg_2": {
+      "message": "Se abrirá una nueva pestaña y se le pedirá que otorgue acceso a su cámara para grabar"
+   },
+   "msg_3": {
+      "message": "El área de captura en esta página está deshabilitada por los permisos del navegador. Tenga en cuenta que, de acuerdo con las reglas de la extensión de Chrome Web Store, no puede funcionar en las páginas de la tienda ni en la página de inicio."
+   },
+   "msg_4": {
+      "message": "Error"
+   },
+   "msg_5": {
+      "message": "¿Estás seguro?"
+   },
+   "msg_6": {
+      "message": "Cancelar"
+   },
+   "msg_7": {
+      "message": "Se abrirá una nueva pestaña, dé acceso a su micrófono"
+   },
+   "msg_8": {
+      "message": "Por favor, conceda acceso"
+   },
+   "msg_9": {
+      "message": "Cancelado"
+   },
+   "sub_1": {
+      "message": "Permite grabar voz desde su micrófono."
+   },
+   "sub_2": {
+      "message": "Agrega sonido de sistema desde sus altavoces."
+   },
+   "sub_3": {
+      "message": "Permite capturar video desde su cámara."
+   },
+   "sub_4": {
+      "message": "Calidad de video de salida."
+   },
+   "tab_1": {
+      "message": "Zona"
+   },
+   "tab_2": {
+      "message": "Lengüeta"
+   },
+   "tab_3": {
+      "message": "Pantalla"
+   },
+   "text_1": {
+      "message": "Grabar voz"
+   },
+   "text_10": {
+      "message": "Permita que REC acceda a su micrófono"
+   },
+   "text_2": {
+      "message": "Grabar sonido del sistema"
+   },
+   "text_3": {
+      "message": "Capture su cámara"
+   },
+   "text_4": {
+      "message": "Noche"
+   },
+   "text_5": {
+      "message": "Día"
+   },
+   "text_6": {
+      "message": "Grabar pantalla en su unidad de Google"
+   },
+   "text_7": {
+      "message": "Área de pantalla de grabación"
+   },
+   "text_8": {
+      "message": "Calidad de salida de video"
+   },
+   "text_9": {
+      "message": "Permita que Screen Recorder acceda a su cámara"
+   },
+   "text_rate": {
+      "message": "¡Por favor califícanos!"
+   },
+   "text_tutorial": {
+      "message": "Tutorial de ayuda, cómo usar la aplicación"
+   }
+}

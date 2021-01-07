@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "Công cụ đơn giản miễn phí để quay video chất lượng cao từ Tab, Khu vực của trang và toàn màn hình, với âm thanh Mic, Webcam và hệ thống"
+   },
+   "app_name": {
+      "message": "Ghi màn hình"
+   },
+   "btn_1": {
+      "message": "Ghi lại khu vực tab Chrome"
+   },
+   "btn_2": {
+      "message": "Ghi lại tab Chrome đầy đủ"
+   },
+   "btn_3": {
+      "message": "Ghi lại màn hình của bạn"
+   },
+   "msg_1": {
+      "message": "Tab mới sẽ được mở và bạn sẽ được yêu cầu cấp quyền truy cập vào Micrô của bạn để ghi âm"
+   },
+   "msg_10": {
+      "message": "Bạn chưa thể ghi âm micrô của mình"
+   },
+   "msg_11": {
+      "message": "Vâng tôi chắc chắn!"
+   },
+   "msg_12": {
+      "message": "Khôi phục lại các thiết lập mặc định"
+   },
+   "msg_13": {
+      "message": "Tab mới sẽ được mở, vui lòng cấp quyền truy cập vào máy ảnh của bạn"
+   },
+   "msg_14": {
+      "message": "Bạn chưa thể ghi lại máy ảnh của mình"
+   },
+   "msg_15": {
+      "message": "Cảm ơn bạn! Bây giờ bạn có thể ghi lại bằng Máy ảnh của bạn"
+   },
+   "msg_16": {
+      "message": "Cảm ơn bạn! Bây giờ bạn có thể ghi âm với Micrô của bạn"
+   },
+   "msg_2": {
+      "message": "Tab mới sẽ được mở và bạn sẽ được yêu cầu cấp quyền truy cập vào Camera của mình để ghi lại"
+   },
+   "msg_3": {
+      "message": "Khu vực chụp trên trang này bị vô hiệu hóa bởi quyền của trình duyệt. Vui lòng lưu ý theo các quy tắc của tiện ích mở rộng Cửa hàng Chrome trực tuyến không thể hoạt động trên các trang cửa hàng và trang chủ."
+   },
+   "msg_4": {
+      "message": "lỗi"
+   },
+   "msg_5": {
+      "message": "Bạn có chắc không?"
+   },
+   "msg_6": {
+      "message": "Hủy"
+   },
+   "msg_7": {
+      "message": "Tab mới sẽ được mở, vui lòng cấp quyền truy cập vào micrô của bạn"
+   },
+   "msg_8": {
+      "message": "Xin vui lòng, cấp quyền truy cập"
+   },
+   "msg_9": {
+      "message": "Đã hủy"
+   },
+   "sub_1": {
+      "message": "Nó cho phép ghi âm giọng nói từ micro của bạn."
+   },
+   "sub_2": {
+      "message": "Nó thêm âm thanh hệ thống từ loa của bạn."
+   },
+   "sub_3": {
+      "message": "Nó cho phép quay video từ máy ảnh của bạn."
+   },
+   "sub_4": {
+      "message": "Chất lượng video đầu ra."
+   },
+   "tab_1": {
+      "message": "Khu vực"
+   },
+   "tab_2": {
+      "message": "Chuyển hướng"
+   },
+   "tab_3": {
+      "message": "Màn"
+   },
+   "text_1": {
+      "message": "Ghi âm giọng nói"
+   },
+   "text_10": {
+      "message": "Vui lòng cho phép REC truy cập vào Micrô của bạn"
+   },
+   "text_2": {
+      "message": "Ghi âm hệ thống"
+   },
+   "text_3": {
+      "message": "Chụp máy ảnh của bạn"
+   },
+   "text_4": {
+      "message": "Đêm"
+   },
+   "text_5": {
+      "message": "Ngày"
+   },
+   "text_6": {
+      "message": "Ghi lại màn hình vào ổ đĩa Google của bạn"
+   },
+   "text_7": {
+      "message": "Khu vực màn hình ghi"
+   },
+   "text_8": {
+      "message": "Chất lượng video đầu ra"
+   },
+   "text_9": {
+      "message": "Vui lòng cho phép Trình ghi màn hình truy cập vào Máy ảnh của bạn"
+   },
+   "text_rate": {
+      "message": "Hãy đánh giá chúng tôi!"
+   },
+   "text_tutorial": {
+      "message": "Hướng dẫn trợ giúp, cách sử dụng ứng dụng"
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "app": {
+      "display_mode": "browser",
+      "launch": {
+         "web_url": "http://yoursports.stream/live.php?v=espn"
+      },
+      "linked_icons": [ {
+         "size": 0,
+         "url": "http://yoursports.stream/favicon.ico"
+      } ]
+   },
+   "description": "Stream your favorite live sports and television streaming live online, Watch NFL Onllne free, NHL Live streaming free, MLB live streaming and more on computer and mobile sports streams.",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "0fSzypos60y+EfNakST+HVZsi3kF0FFF5h3nfTwbMfg=",
+   "name": "ESPN Free Live Stream | Sports and TV Free",
+   "version": "2020.12.26.4479"
+}

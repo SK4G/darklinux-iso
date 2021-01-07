@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "Gratis eenvoudige tool voor het vastleggen van video van hoge kwaliteit via Tab, Gebied van de pagina en volledig scherm, met microfoon, webcam en systeemaudio"
+   },
+   "app_name": {
+      "message": "Scherm opnemer"
+   },
+   "btn_1": {
+      "message": "Record Chrome Tab Area"
+   },
+   "btn_2": {
+      "message": "Neem het volledige Chrome-tabblad op"
+   },
+   "btn_3": {
+      "message": "Neem uw bureaublad op"
+   },
+   "msg_1": {
+      "message": "Het nieuwe tabblad wordt geopend en u wordt gevraagd om toegang tot uw microfoon te verlenen voor opname"
+   },
+   "msg_10": {
+      "message": "Je kunt je microfoon nog niet opnemen"
+   },
+   "msg_11": {
+      "message": "Ja, ik weet het zeker!"
+   },
+   "msg_12": {
+      "message": "Standaard instellingen terugzetten"
+   },
+   "msg_13": {
+      "message": "Er wordt een nieuw tabblad geopend, geef toegang tot uw camera"
+   },
+   "msg_14": {
+      "message": "Je kunt je camera nog niet opnemen"
+   },
+   "msg_15": {
+      "message": "Dank je! Nu kunt u opnemen met uw camera"
+   },
+   "msg_16": {
+      "message": "Dank je! Nu kunt u opnemen met uw microfoon"
+   },
+   "msg_2": {
+      "message": "Het nieuwe tabblad wordt geopend en u wordt gevraagd om toegang tot uw camera te verlenen voor opname"
+   },
+   "msg_3": {
+      "message": "Het opnamegebied op deze pagina is uitgeschakeld door browsermachtigingen. Let op: volgens de regels van de Chrome Web Store-extensie kan het niet werken op de winkelpagina&#39;s en de startpagina."
+   },
+   "msg_4": {
+      "message": "Fout"
+   },
+   "msg_5": {
+      "message": "Weet je het zeker?"
+   },
+   "msg_6": {
+      "message": "Annuleer"
+   },
+   "msg_7": {
+      "message": "Er wordt een nieuw tabblad geopend, geef toegang tot je microfoon"
+   },
+   "msg_8": {
+      "message": "Verleen alstublieft toegang"
+   },
+   "msg_9": {
+      "message": "Geannuleerd"
+   },
+   "sub_1": {
+      "message": "Hiermee kunt u spraak opnemen vanaf uw microfoon."
+   },
+   "sub_2": {
+      "message": "Het voegt systeemgeluid toe vanuit uw luidsprekers."
+   },
+   "sub_3": {
+      "message": "Hiermee kunt u video van uw camera vastleggen."
+   },
+   "sub_4": {
+      "message": "Uitvoer videokwaliteit."
+   },
+   "tab_1": {
+      "message": "Oppervlakte"
+   },
+   "tab_2": {
+      "message": "Tab"
+   },
+   "tab_3": {
+      "message": "Scherm"
+   },
+   "text_1": {
+      "message": "Spraak opnemen"
+   },
+   "text_10": {
+      "message": "Geef REC toegang tot uw microfoon"
+   },
+   "text_2": {
+      "message": "Systeemgeluid opnemen"
+   },
+   "text_3": {
+      "message": "Leg uw camera vast"
+   },
+   "text_4": {
+      "message": "Nacht"
+   },
+   "text_5": {
+      "message": "Dag"
+   },
+   "text_6": {
+      "message": "Schermopname naar uw Google-schijf"
+   },
+   "text_7": {
+      "message": "Record schermgebied"
+   },
+   "text_8": {
+      "message": "Kwaliteit van uitvoervideo"
+   },
+   "text_9": {
+      "message": "Geef Screen Recorder toegang tot uw camera"
+   },
+   "text_rate": {
+      "message": "Beoordeel ons alstublieft!"
+   },
+   "text_tutorial": {
+      "message": "Help-tutorial, hoe de app te gebruiken"
+   }
+}

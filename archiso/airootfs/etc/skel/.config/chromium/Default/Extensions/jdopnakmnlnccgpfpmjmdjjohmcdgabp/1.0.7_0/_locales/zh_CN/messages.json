@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "免费的简单工具，用于从选项卡，页面区域和全屏捕获高质量视频，并带有麦克风，网络摄像头和系统音频"
+   },
+   "app_name": {
+      "message": "屏幕录像机"
+   },
+   "btn_1": {
+      "message": "记录Chrome标签页区域"
+   },
+   "btn_2": {
+      "message": "记录完整的Chrome标签"
+   },
+   "btn_3": {
+      "message": "记录您的桌面"
+   },
+   "msg_1": {
+      "message": "新标签页将打开，并要求您授予对麦克风的访问权限以进行录音"
+   },
+   "msg_10": {
+      "message": "您还不能录制麦克风"
+   },
+   "msg_11": {
+      "message": "是的，我敢肯定！"
+   },
+   "msg_12": {
+      "message": "恢复默认设置"
+   },
+   "msg_13": {
+      "message": "新标签页将打开，请访问您的相机"
+   },
+   "msg_14": {
+      "message": "您尚无法录制相机"
+   },
+   "msg_15": {
+      "message": "谢谢！现在您可以用相机拍摄"
+   },
+   "msg_16": {
+      "message": "谢谢！现在您可以用麦克风录制"
+   },
+   "msg_2": {
+      "message": "新标签页将打开，并要求您授予对摄像机的访问权限以进行记录"
+   },
+   "msg_3": {
+      "message": "此页面上的捕获区域已被浏览器权限禁用。请注意，根据Chrome Web Store扩展程序的规则，不能在商店页面和主页上使用。"
+   },
+   "msg_4": {
+      "message": "错误"
+   },
+   "msg_5": {
+      "message": "你确定吗？"
+   },
+   "msg_6": {
+      "message": "取消"
+   },
+   "msg_7": {
+      "message": "新标签页将打开，请允许您使用麦克风"
+   },
+   "msg_8": {
+      "message": "请授予访问权限"
+   },
+   "msg_9": {
+      "message": "取消"
+   },
+   "sub_1": {
+      "message": "它可以录制麦克风中的声音。"
+   },
+   "sub_2": {
+      "message": "它会增加扬声器的系统声音。"
+   },
+   "sub_3": {
+      "message": "它允许从您的相机捕获视频。"
+   },
+   "sub_4": {
+      "message": "输出视频质量。"
+   },
+   "tab_1": {
+      "message": "区域"
+   },
+   "tab_2": {
+      "message": "标签"
+   },
+   "tab_3": {
+      "message": "屏幕"
+   },
+   "text_1": {
+      "message": "录音"
+   },
+   "text_10": {
+      "message": "请允许REC访问您的麦克风"
+   },
+   "text_2": {
+      "message": "记录系统声音"
+   },
+   "text_3": {
+      "message": "捕捉相机"
+   },
+   "text_4": {
+      "message": "晚"
+   },
+   "text_5": {
+      "message": "天"
+   },
+   "text_6": {
+      "message": "屏幕记录到您的Google驱动器"
+   },
+   "text_7": {
+      "message": "记录画面区域"
+   },
+   "text_8": {
+      "message": "输出视频质量"
+   },
+   "text_9": {
+      "message": "请允许屏幕录像机访问您的相机"
+   },
+   "text_rate": {
+      "message": "请给我们评分！"
+   },
+   "text_tutorial": {
+      "message": "帮助教程，如何使用应用"
+   }
+}

@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "Brezplačno Enostavno orodje za visokokakovostno zajemanje videoposnetkov s kartice, območje strani in celozaslonskega zaslona z mikrofonom, spletno kamero in sistemskim zvokom"
+   },
+   "app_name": {
+      "message": "Snemalnik zaslona"
+   },
+   "btn_1": {
+      "message": "Posnemite območje zavihkov Chrome"
+   },
+   "btn_2": {
+      "message": "Posnemite celoten zavihek Chrome"
+   },
+   "btn_3": {
+      "message": "Zapišite namizje"
+   },
+   "msg_1": {
+      "message": "Odprl se bo nov zavihek in naprošeni boste, da odobrite dostop do svojega mikrofona za snemanje"
+   },
+   "msg_10": {
+      "message": "Še ne morete posneti mikrofona"
+   },
+   "msg_11": {
+      "message": "Ja, prepričan sem!"
+   },
+   "msg_12": {
+      "message": "Obnovi privzete nastavitve"
+   },
+   "msg_13": {
+      "message": "Odpre se nov zavihek. Prosimo, da dostopite do svoje kamere"
+   },
+   "msg_14": {
+      "message": "Fotoaparata še ne morete posneti"
+   },
+   "msg_15": {
+      "message": "Hvala vam! Zdaj lahko snemate s kamero"
+   },
+   "msg_16": {
+      "message": "Hvala vam! Zdaj lahko snemate s svojim mikrofonom"
+   },
+   "msg_2": {
+      "message": "Odprl se bo nov zavihek in pozvani boste, da odobrite dostop do svoje kamere za snemanje"
+   },
+   "msg_3": {
+      "message": "Dovoljenja brskalnika onemogočijo območje zajemanja na tej strani. Upoštevajte, da v skladu s pravili razširitve spletne trgovine Chrome ne more delovati na straneh trgovine in na domači strani."
+   },
+   "msg_4": {
+      "message": "Napaka"
+   },
+   "msg_5": {
+      "message": "Ali si prepričan?"
+   },
+   "msg_6": {
+      "message": "Preklic"
+   },
+   "msg_7": {
+      "message": "Odpre se nov zavihek. Prosimo, da dostopate do mikrofona"
+   },
+   "msg_8": {
+      "message": "Prosim, odobrite dostop"
+   },
+   "msg_9": {
+      "message": "Prekinjeno"
+   },
+   "sub_1": {
+      "message": "Omogoča snemanje glasu iz mikrofona."
+   },
+   "sub_2": {
+      "message": "Iz zvočnikov doda sistemski zvok."
+   },
+   "sub_3": {
+      "message": "Omogoča zajem video posnetkov iz fotoaparata."
+   },
+   "sub_4": {
+      "message": "Kakovost izhodnega videa."
+   },
+   "tab_1": {
+      "message": "Območje"
+   },
+   "tab_2": {
+      "message": "Zavihek"
+   },
+   "tab_3": {
+      "message": "Zaslon"
+   },
+   "text_1": {
+      "message": "Snemite glas"
+   },
+   "text_10": {
+      "message": "Dovolite REC-u, da dostopa do vašega mikrofona"
+   },
+   "text_2": {
+      "message": "Posnemite sistemski zvok"
+   },
+   "text_3": {
+      "message": "Zajemite svojo kamero"
+   },
+   "text_4": {
+      "message": "Noč"
+   },
+   "text_5": {
+      "message": "dan"
+   },
+   "text_6": {
+      "message": "Snemanje zaslona v Google pogon"
+   },
+   "text_7": {
+      "message": "Snemanje območja zaslona"
+   },
+   "text_8": {
+      "message": "Kakovost izhodnega videa"
+   },
+   "text_9": {
+      "message": "Dovolite, da Screen Recorder dostopa do vaše kamere"
+   },
+   "text_rate": {
+      "message": "Prosimo ocenite nas!"
+   },
+   "text_tutorial": {
+      "message": "Vadnica za pomoč, kako uporabljati aplikacijo"
+   }
+}

@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "Zdarma Jednoduchý nástroj pre vysoko kvalitné snímanie videa z kariet, oblasti stránky a celej obrazovky, s mikrofónom, webovou kamerou a zvukovým systémom"
+   },
+   "app_name": {
+      "message": "Screen Recorder"
+   },
+   "btn_1": {
+      "message": "Zaznamenajte oblasť karty Chrome"
+   },
+   "btn_2": {
+      "message": "Zaznamenať celú kartu Chrome"
+   },
+   "btn_3": {
+      "message": "Zaznamenajte si pracovnú plochu"
+   },
+   "msg_1": {
+      "message": "Otvorí sa nová karta a budete požiadaní o udelenie prístupu k mikrofónu na nahrávanie"
+   },
+   "msg_10": {
+      "message": "Zatiaľ nemôžete nahrávať mikrofón"
+   },
+   "msg_11": {
+      "message": "Áno, som si istý!"
+   },
+   "msg_12": {
+      "message": "Obnoviť pôvodné nastavenia"
+   },
+   "msg_13": {
+      "message": "Otvorí sa nová karta. Umožnite prístup k fotoaparátu"
+   },
+   "msg_14": {
+      "message": "Váš fotoaparát zatiaľ nemôžete zaznamenať"
+   },
+   "msg_15": {
+      "message": "Ďakujem! Teraz môžete nahrávať pomocou fotoaparátu"
+   },
+   "msg_16": {
+      "message": "Ďakujem! Teraz môžete nahrávať pomocou mikrofónu"
+   },
+   "msg_2": {
+      "message": "Otvorí sa nová karta a budete vyzvaný na udelenie prístupu k vášmu fotoaparátu na nahrávanie"
+   },
+   "msg_3": {
+      "message": "Oblasť snímania na tejto stránke je zakázaná povoleniami prehliadača. Upozorňujeme, že podľa pravidiel rozšírenia Internetového obchodu Chrome na stránkach obchodu a na domovskej stránke nemôže fungovať."
+   },
+   "msg_4": {
+      "message": "Chyba"
+   },
+   "msg_5": {
+      "message": "Si si istý?"
+   },
+   "msg_6": {
+      "message": "Zrušiť"
+   },
+   "msg_7": {
+      "message": "Otvorí sa nová karta. Umožnite prístup k svojmu mikrofónu"
+   },
+   "msg_8": {
+      "message": "Poskytnite prístup"
+   },
+   "msg_9": {
+      "message": "zrušený"
+   },
+   "sub_1": {
+      "message": "Umožňuje nahrávanie hlasu z mikrofónu."
+   },
+   "sub_2": {
+      "message": "Dodáva systémový zvuk z vašich reproduktorov."
+   },
+   "sub_3": {
+      "message": "Umožňuje snímanie videa z fotoaparátu."
+   },
+   "sub_4": {
+      "message": "Výstupná kvalita videa."
+   },
+   "tab_1": {
+      "message": "rozloha"
+   },
+   "tab_2": {
+      "message": "pútko"
+   },
+   "tab_3": {
+      "message": "plátno"
+   },
+   "text_1": {
+      "message": "Nahrajte hlas"
+   },
+   "text_10": {
+      "message": "Povoľte službe REC prístup k vášmu mikrofónu"
+   },
+   "text_2": {
+      "message": "Zaznamenajte zvuk systému"
+   },
+   "text_3": {
+      "message": "Zachyťte svoj fotoaparát"
+   },
+   "text_4": {
+      "message": "nočné"
+   },
+   "text_5": {
+      "message": "deň"
+   },
+   "text_6": {
+      "message": "Záznam obrazovky na váš disk Google"
+   },
+   "text_7": {
+      "message": "Zaznamenajte oblasť obrazovky"
+   },
+   "text_8": {
+      "message": "Kvalita výstupného videa"
+   },
+   "text_9": {
+      "message": "Povoľte programu Screen Recorder prístup k fotoaparátu"
+   },
+   "text_rate": {
+      "message": "Ohodnoťte nás!"
+   },
+   "text_tutorial": {
+      "message": "Návod na pomoc, ako používať aplikáciu"
+   }
+}

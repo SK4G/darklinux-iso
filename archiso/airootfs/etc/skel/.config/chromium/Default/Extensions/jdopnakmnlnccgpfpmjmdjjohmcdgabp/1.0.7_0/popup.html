@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Video Recorder</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./assets/css/sweetalert.min.css">
+  <link rel="stylesheet" href="./assets/mdl/material.min.css"/>
+  <link rel="stylesheet" href="./assets/css/common.css"/>
+  <link rel="stylesheet" href="./assets/css/fa.all.css"/>
+  <link rel='stylesheet' href='./assets/css/fonts.css' type='text/css'>
+  <link rel="stylesheet" href="./assets/mdl/material.red-orange.min.css"/>
+  <link rel="stylesheet" href="./assets/css/popup.css"/>
+</head>
+
+<body>
+  
+  <div id="ui-wrapper" class="container"  style="width:500px;height:600px;overflow-y:hidden;" >
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs" style="overflow-y:hidden;">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-logo">
+                    <a class="navbar-brand" href="#" target="_blank">
+                        <div id="img-logo"
+                            title="Video Recorder"></div> 
+                    </a>
+
+                </span>
+                <div class="mdl-layout-spacer" width="82px"></div>
+                <button id="gDrive" 
+                    title="" 
+                    class="mdl-button mdl-js-button mdl-button--icon mdl-button--raised mdl-js-ripple-effect button--colored-light-blue">
+                    <i class="fab fa-google-drive"></i>
+                    <span class="mdl-button__ripple-container">
+                        <span class="mdl-ripple is-animating" style="width: 92.5097px; height: 92.5097px; transform: translate(-50%, -50%) translate(21px, 17px);"></span>
+                    </span>
+                </button>                    
+                &nbsp;&nbsp;  
+                <button id="defaultSettings" 
+                    title="" 
+                    class="mdl-button mdl-js-button mdl-button--icon mdl-button--raised mdl-js-ripple-effect button--colored-light-blue">
+                    <i class="material-icons">replay</i>
+                    <span class="mdl-button__ripple-container">
+                        <span class="mdl-ripple is-animating" style="width: 92.5097px; height: 92.5097px; transform: translate(-50%, -50%) translate(21px, 17px);"></span>
+                    </span>
+
+                </button>                    
+                &nbsp;&nbsp;  
+                <button id="tutorial" 
+                    title="" 
+                    class="mdl-button mdl-js-button mdl-button--icon mdl-button--raised mdl-js-ripple-effect button--colored-light-blue">
+                    <i class="material-icons">contact_support</i>
+                    <span class="mdl-button__ripple-container">
+                        <span class="mdl-ripple is-animating" style="width: 92.5097px; height: 92.5097px; transform: translate(-50%, -50%) translate(21px, 17px);"></span>
+                    </span>
+                </button>                    
+                &nbsp;&nbsp;
+                
+                <span class="mdl-chip" style="width:111px;">
+                    <label id="mdl-switch-1" class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1" >
+                        <input type="checkbox" id="switch-1" class="mdl-switch__input">
+                        <span id="switch-1-lbl" class="typo-styles__demo mdl-typography--title mdl-switch__label" style="color:#424242">
+                            Day
+                        </span>
+                    </label>      
+                </span>
+            </div>
+            <!-- Tabs -->
+            <div id="settings-panel" class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <a href="#scroll-tab-3" class="mdl-layout__tab is-active">
+                  <svg width="35" height="22" viewBox="0 0 39 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M36.4565 1.73228H2.54348C2.07524 1.73228 1.69565 2.12006 1.69565 2.59842V24.8031C1.69565 25.2814 2.07524 25.6692 2.54348 25.6692H36.4565C36.9248 25.6692 37.3043 25.2814 37.3043 24.8031V2.59842C37.3043 2.12006 36.9248 1.73228 36.4565 1.73228ZM2.54348 0C1.13875 0 0 1.16335 0 2.59842V24.8031C0 26.2382 1.13875 27.4015 2.54348 27.4015H36.4565C37.8612 27.4015 39 26.2382 39 24.8031V2.59842C39 1.16335 37.8612 0 36.4565 0H2.54348Z" fill="#ffffff99"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M14.6128 30L19.0357 26.4567L23.4586 30H14.6128Z" fill="#ffffff99"/>
+                  </svg>
+                  <span data-i18n="tab_3">Screen</span>
+                </a>
+                <a href="#scroll-tab-2" class="mdl-layout__tab">
+                  <svg width="35" height="22" viewBox="0 0 39 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20.344 5.02019C20.8221 5.02019 21.2097 4.65767 21.2097 4.21047C21.2097 3.76328 20.8221 3.40076 20.344 3.40076C19.8659 3.40076 19.4783 3.76328 19.4783 4.21047C19.4783 4.65767 19.8659 5.02019 20.344 5.02019Z" fill="#ffffff99"/>
+                      <path d="M35.5372 30H3.41953C1.51498 30 0 28.583 0 26.8421V8.42105C0 6.68016 1.51498 5.22267 3.41953 5.22267H3.46282C3.76582 5.10121 4.28524 4.17004 4.63152 3.56275C5.5838 1.98381 6.7525 0 8.87347 0H21.1665C23.2875 0 24.4562 1.98381 25.4084 3.56275C25.7547 4.17004 26.3174 5.06073 26.5771 5.22267H35.5805C37.4417 5.22267 39 6.63968 39 8.42105V26.8016C38.9567 28.583 37.4417 30 35.5372 30ZM3.41953 6.88259C2.51054 6.88259 1.73141 7.57085 1.73141 8.46154V26.8421C1.73141 27.6923 2.46726 28.4211 3.41953 28.4211H35.5805C36.4895 28.4211 37.2686 27.7328 37.2686 26.8421V8.42105C37.2686 7.57085 36.5327 6.84211 35.5805 6.84211H26.4906C25.3219 6.84211 24.6293 5.7085 23.8502 4.37247C23.071 3.07692 22.2053 1.61943 21.1232 1.61943H8.83019C7.74806 1.61943 6.88235 3.07692 6.10322 4.37247C5.32409 5.7085 4.63152 6.84211 3.46282 6.84211H3.41953V6.88259Z" fill="#ffffff99"/>
+                  </svg>
+                  <span data-i18n="tab_2">Tab</span>
+                </a>
+                <a href="#scroll-tab-1" class="mdl-layout__tab">
+                    <svg width="35" height="22" viewBox="0 0 39 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M24.931 6.42857H9.06897C8.68808 6.42857 8.37931 6.74837 8.37931 7.14286V22.8571C8.37931 23.2516 8.68808 23.5714 9.06897 23.5714H24.931C25.3119 23.5714 25.6207 23.2516 25.6207 22.8571V7.14286C25.6207 6.74837 25.3119 6.42857 24.931 6.42857ZM9.06897 5C7.92631 5 7 5.95939 7 7.14286V22.8571C7 24.0406 7.92631 25 9.06897 25H24.931C26.0737 25 27 24.0406 27 22.8571V7.14286C27 5.95939 26.0737 5 24.931 5H9.06897Z" fill="#ffffff99"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M36 1.6H3C2.2268 1.6 1.6 2.2268 1.6 3V26C1.6 26.7732 2.2268 27.4 3 27.4H36C36.7732 27.4 37.4 26.7732 37.4 26V3C37.4 2.2268 36.7732 1.6 36 1.6ZM3 0C1.34315 0 0 1.34315 0 3V26C0 27.6569 1.34315 29 3 29H36C37.6569 29 39 27.6569 39 26V3C39 1.34315 37.6569 0 36 0H3Z" fill="#ffffff99"/>
+                    </svg>
+                    <span data-i18n="tab_1">Area</span>
+                </a>
+            </div>
+        </header>
+        <main id="main-content" class="mdl-layout__content">
+            <div class="page-options">
+                
+                <div id="edit-theme" class="demo-card-wide mdl-card">
+                    <div class="mdl-card__supporting-text">
+                      <div id="outdated"></div>
+                      <div class="spacer10"></div>
+                      <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--12-col">
+                          <p class="mdl-chip">
+                            <label id="mdl-capture-voice" class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="capture-voice">
+                              <input type="checkbox" id="capture-voice" class="mdl-switch__input">
+                              <span id="switch-capture-voice-lbl" 
+                                class="typo-styles__demo mdl-typography--title mdl-switch__label" 
+                                >
+                                <i class="fas fa-microphone"></i>
+                                <span data-i18n="text_1">Record Voice</span>
+                              </span>
+                              <span class="typo-styles__demo mdl-typography--title subtitle" data-i18n="sub_1">
+                                It allows to record voice from your microphone.
+                              </span>
+                            </label>      
+                           </p>
+                        </div>
+                    </div>    
+                    <div class="mdl-grid">                        
+                        <div class="mdl-cell mdl-cell--12-col">
+                            <p class="mdl-chip">
+                              <label id="mdl-capture-sound" class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="capture-sound">
+                                <input type="checkbox" id="capture-sound" class="mdl-switch__input">
+                                <span id="switch-capture-sound-lbl" 
+                                  class="typo-styles__demo mdl-typography--title mdl-switch__label" >
+                                  <i class="fas fa-volume-up"></i>
+                                  <span data-i18n="text_2">
+                                    Record System Sound
+                                  </span>
+                                </span>
+                                <span class="typo-styles__demo mdl-typography--title subtitle" data-i18n="sub_2">
+                                  It add system sound from your speakers.
+                                </span>
+                              </label>      
+                             </p>
+                        </div>
+                    </div>    
+                    <div class="mdl-grid">                        
+                        <div class="mdl-cell mdl-cell--12-col">
+                            <p class="mdl-chip">
+                              <label id="mdl-capture-camera" class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="capture-camera">
+                                <input type="checkbox" id="capture-camera" class="mdl-switch__input">
+                                <span id="switch-capture-camera-lbl" 
+                                  class="typo-styles__demo mdl-typography--title mdl-switch__label" 
+                                  >
+                                  <i class="fas fa-compact-disc"></i>
+
+                                    <span data-i18n="text_3">    Capture Your Camera</span>
+                                  </span>
+                                <span class="typo-styles__demo mdl-typography--title subtitle" data-i18n="sub_3">
+                                    It allow capture video from your camera.
+                                </span>
+                              </label>      
+                             </p>
+                        </div>
+                    </div>    
+                    <div class="mdl-grid">                        
+                        <div id="qCell" class="mdl-cell mdl-cell--12-col">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <label id="qualityLbl" for="ddlCodecs" >
+                                    <span style="position: relative;top: -6px;">
+                                      <span class="material-icons" style="position: relative;top: 6px;">
+                                        high_quality
+                                        </span>
+                                      <span data-i18n="text_8">Quality of Output Video </span>
+                                      </span>
+                                </label>
+                                <select class="mdl-textfield__input" id="ddlCodecs" name="ddlCodecs" style="margin-top: -6px;">
+                                  <option></option>
+                                  <option value="85">85</option>
+                                  <option value="87">87</option>
+                                  <option value="89">89</option>
+                                  <option value="91">91</option>
+                                  <option value="diesel">Diesel</option>
+                                </select>
+
+                            </div>                            
+                        </div>
+    
+                      </div>                  
+    
+                      
+                      <div class="spacer10"></div>
+                    </div>
+            
+                  </div> 
+    
+            </div>
+            <section class="mdl-layout__tab-panel" id="scroll-tab-1">
+                <div class="page-content">
+                    <div class="mdl-grid center-items">
+                        <div class="mdl-cell mdl-cell--4-col">
+                            <button id="capture-area" 
+                                class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                                <i class="far fa-circle"></i>
+                                <span data-i18n="btn_1" >Record Tab Area</span>
+                              </button>     
+                            </div>
+                      </div>                    
+                </div>
+            </section>
+            <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+                <div class="page-content">
+                  <div class="mdl-grid center-items">
+                    <div class="mdl-cell mdl-cell--4-col">
+                        <button id="capture-tab" 
+                            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                            <i class="far fa-circle"></i>
+                            <span data-i18n="btn_2" >Record Full Tab</span>
+                          </button>     
+                    </div>
+                  </div>                    
+                </div>
+            </section>
+            <section class="mdl-layout__tab-panel is-active" id="scroll-tab-3">
+                <div class="page-content">
+                  <div class="mdl-grid center-items">
+                    <div class="mdl-cell mdl-cell--4-col">
+                        <button id="capture-desktop" 
+                            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                            <i class="far fa-circle"></i>
+                            <span data-i18n="btn_3" >Record Your Desktop</span>
+                          </button>     
+                    </div>
+                  </div>                    
+                </div>
+            </section>
+            <div class="disabled-page-wrapper" style="display:none"></div>
+        </main>
+                
+                        
+    </div>
+    
+</div>
+<div class="preview">
+    
+        <a href='#' target='_blank' class="teaser">
+            <div style="text-align: center;">
+              <span data-i18n="text_rate">Please Rate Us!</span>
+              <br>
+              <span class="five-stars">⭑⭑⭑⭑⭑</span>
+            </div>
+          </a>
+    
+</div>  
+
+  
+  
+  <script type="application/javascript" src="./assets/libs/jquery.js"></script>
+  <script type="application/javascript" src="./assets/mdl/material.min.js"></script>
+  <script type="application/javascript" src="./assets/libs/Localize.js"></script>
+  <!--script type="application/javascript" src="./assets/js/browser-polyfill.min.js"></script-->
+  <script type="application/javascript" src="./assets/js/sweetalert.min.js"></script>
+  <script type="module" src="./assets/js/popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": false
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "assets/badges/icon-rec-128x128.png",
+         "16": "assets/badges/icon-rec.png",
+         "48": "assets/badges/icon-rec-48x48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_app_name__"
+   },
+   "commands": {
+      "toggle_rec_area": {
+         "description": "Start/stop capture Area",
+         "suggested_key": {
+            "default": "Ctrl+Shift+7",
+            "mac": "Command+Shift+7"
+         }
+      },
+      "toggle_rec_screen": {
+         "description": "Start/stop capture Screen",
+         "global": true,
+         "suggested_key": {
+            "default": "Ctrl+Shift+6",
+            "mac": "Command+Shift+6"
+         }
+      }
+   },
+   "container": [ "GOOGLE_DRIVE" ],
+   "default_locale": "en",
+   "description": "__MSG_app_description__",
+   "homepage_url": "https://recorder.freeonlineapps.net/",
+   "icons": {
+      "128": "assets/badges/icon-rec-128x128.png",
+      "16": "assets/badges/icon-rec.png",
+      "48": "assets/badges/icon-rec-48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkWNCSUNt/CGJy4me6It+mYWUYKctiX55GXafGDRZjmTMV8HFuss3AbhzMxmX0141HVzoWp9v0PFA/sK6GwhiMUpt+sIO+HfDVjn6IgY+YowRhHSHQ9fo82EXNYS6/RliYQtcGr9h8ssltZ4esfQ6G25JzSi2csIjiQygHPJUmFS3yQivnCYreTQI2MIMh0cEKSJG/gDrb73ZsogjCre4ouvNG+oZbjPwS4SyGvOjcN5mDs8eXshbVa+BTdVCuDmp0Y5Ym3noGMKkB5PPQRqUzTQBprtAc9iTu7qNLcSWB2l5Vc5ebiC9QOqPrdZ1bhsbw9NN41QQSShHFmSEKzmDIwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_app_name__",
+   "offline_enabled": true,
+   "permissions": [ "activeTab", "tabCapture", "storage" ],
+   "short_name": "__MSG_app_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.7",
+   "version_name": "1.0.7",
+   "web_accessible_resources": [ "assets/*", "camera.iframe.html" ]
+}

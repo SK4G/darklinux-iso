@@ -1,0 +1,48 @@
+{
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJqAFlgPloe8MvQ6rCv5eGAeljWqiE7C5XvyVOGTgjZ80uVTB66pAUXTblIYtbreVnm+NFQTOBfmu8acTLKzJP1i/GzaSlOlHct9ACWvWTI826dvYO8KeMJfSIEAX/zz03q7k6V7raTQJQBpFYOU0ZXOfzEkRiB9p+//WWY/yIwwIDAQAB",
+   "name": "Simple Chargers",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 232, 232, 232 ],
+         "button_background": [ 45, 123, 198 ],
+         "control_background": [ 0, 0, 0 ],
+         "frame": [ 45, 123, 198 ],
+         "frame_inactive": [ 254, 225, 134 ],
+         "frame_incognito": [ 83, 106, 139 ],
+         "frame_incognito_inactive": [ 126, 139, 156 ],
+         "ntp_background": [ 255, 255, 255 ],
+         "ntp_header": [ 255, 255, 255 ],
+         "ntp_link": [ 45, 123, 198 ],
+         "ntp_link_underline": [ 242, 182, 0 ],
+         "ntp_section": [ 255, 195, 13 ],
+         "ntp_section_link": [ 45, 123, 198 ],
+         "ntp_section_link_underline": [ 236, 177, 0 ],
+         "ntp_section_text": [ 19, 51, 83 ],
+         "ntp_text": [ 45, 123, 198 ],
+         "tab_background_text": [ 45, 123, 198 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 26, 69, 113 ]
+      },
+      "images": {
+         "theme_frame": "images/theme_frame.png",
+         "theme_ntp_background": "images/theme_ntp_background.png",
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_toolbar": "images/theme_toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "left bottom",
+         "ntp_background_repeat": "no-repeat",
+         "ntp_logo_alternate": 0
+      },
+      "tints": {
+         "background_tab": [ -1.0, 0.5, 0.75 ],
+         "buttons": [ 0.1, 1.0, 1.0 ],
+         "frame": [ -1.0, -1.0, -1.0 ],
+         "frame_inactive": [ -1.0, -1.0, 0.75 ],
+         "frame_incognito": [ -1.0, 0.2, 0.35 ],
+         "frame_incognito_inactive": [ -1.0, 0.3, 0.6 ]
+      }
+   },
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

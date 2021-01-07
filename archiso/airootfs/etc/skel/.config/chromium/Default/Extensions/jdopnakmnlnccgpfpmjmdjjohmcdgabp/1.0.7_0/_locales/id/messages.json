@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "Alat sederhana gratis untuk menangkap video berkualitas tinggi dari Tab, Area halaman dan Layar penuh, dengan Mic, Webcam, dan audio Sistem"
+   },
+   "app_name": {
+      "message": "Perekam Layar"
+   },
+   "btn_1": {
+      "message": "Rekam Area Tab Chrome"
+   },
+   "btn_2": {
+      "message": "Rekam Tab Chrome Lengkap"
+   },
+   "btn_3": {
+      "message": "Rekam Desktop Anda"
+   },
+   "msg_1": {
+      "message": "Tab Baru akan dibuka, dan Anda akan diminta untuk memberikan akses ke Mikrofon Anda untuk rekaman"
+   },
+   "msg_10": {
+      "message": "Anda belum dapat merekam mikrofon Anda"
+   },
+   "msg_11": {
+      "message": "Ya saya yakin!"
+   },
+   "msg_12": {
+      "message": "Kembalikan pengaturan default"
+   },
+   "msg_13": {
+      "message": "Tab baru akan dibuka, tolong beri akses ke kamera Anda"
+   },
+   "msg_14": {
+      "message": "Anda belum dapat merekam kamera Anda"
+   },
+   "msg_15": {
+      "message": "Terima kasih! Sekarang Anda dapat merekam dengan Kamera Anda"
+   },
+   "msg_16": {
+      "message": "Terima kasih! Sekarang Anda dapat merekam dengan Mikrofon Anda"
+   },
+   "msg_2": {
+      "message": "Tab Baru akan dibuka, dan Anda akan diminta untuk memberikan akses ke Kamera Anda untuk merekam"
+   },
+   "msg_3": {
+      "message": "Area Pengambilan pada halaman ini dinonaktifkan oleh izin browser. Tolong, perhatikan sesuai dengan aturan ekstensi Toko Web Chrome tidak dapat bekerja di halaman toko dan halaman rumah."
+   },
+   "msg_4": {
+      "message": "Kesalahan"
+   },
+   "msg_5": {
+      "message": "Apakah kamu yakin"
+   },
+   "msg_6": {
+      "message": "Membatalkan"
+   },
+   "msg_7": {
+      "message": "Tab baru akan dibuka, tolong beri akses ke mikrofon Anda"
+   },
+   "msg_8": {
+      "message": "Tolong, beri akses"
+   },
+   "msg_9": {
+      "message": "Dibatalkan"
+   },
+   "sub_1": {
+      "message": "Memungkinkan untuk merekam suara dari mikrofon Anda."
+   },
+   "sub_2": {
+      "message": "Ini menambah suara sistem dari speaker Anda."
+   },
+   "sub_3": {
+      "message": "Ini memungkinkan pengambilan video dari kamera Anda."
+   },
+   "sub_4": {
+      "message": "Kualitas Video Output."
+   },
+   "tab_1": {
+      "message": "Daerah"
+   },
+   "tab_2": {
+      "message": "Tab"
+   },
+   "tab_3": {
+      "message": "Layar"
+   },
+   "text_1": {
+      "message": "Rekam Suara"
+   },
+   "text_10": {
+      "message": "Izinkan REC untuk mengakses Mikrofon Anda"
+   },
+   "text_2": {
+      "message": "Rekam Suara Sistem"
+   },
+   "text_3": {
+      "message": "Tangkap Kamera Anda"
+   },
+   "text_4": {
+      "message": "Malam"
+   },
+   "text_5": {
+      "message": "Hari"
+   },
+   "text_6": {
+      "message": "Rekam Layar ke Google drive Anda"
+   },
+   "text_7": {
+      "message": "Rekam Area Layar"
+   },
+   "text_8": {
+      "message": "Kualitas Video Output"
+   },
+   "text_9": {
+      "message": "Izinkan Screen Recorder untuk mengakses Kamera Anda"
+   },
+   "text_rate": {
+      "message": "Silakan Beri Nilai Kami!"
+   },
+   "text_tutorial": {
+      "message": "Tutorial bantuan, cara menggunakan aplikasi"
+   }
+}

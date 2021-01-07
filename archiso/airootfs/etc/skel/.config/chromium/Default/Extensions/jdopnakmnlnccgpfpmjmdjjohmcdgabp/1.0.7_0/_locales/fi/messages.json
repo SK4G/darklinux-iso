@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "Ilmainen, yksinkertainen työkalu korkealaatuisen videon kaappaamiseksi välilehdeltä, sivun alueelta ja koko näytöltä, mikrofonilla, verkkokameralla ja järjestelmääänellä"
+   },
+   "app_name": {
+      "message": "Näytön tallennin"
+   },
+   "btn_1": {
+      "message": "Tallenna Chrome-välilehti"
+   },
+   "btn_2": {
+      "message": "Tallenna koko Chrome-välilehti"
+   },
+   "btn_3": {
+      "message": "Tallenna työpöytä"
+   },
+   "msg_1": {
+      "message": "Uusi välilehti avataan, ja sinua pyydetään myöntämään pääsy mikrofoniin tallennusta varten"
+   },
+   "msg_10": {
+      "message": "Mikrofonia ei voi vielä tallentaa"
+   },
+   "msg_11": {
+      "message": "Kyllä, olen varma!"
+   },
+   "msg_12": {
+      "message": "Palauta oletusasetukset"
+   },
+   "msg_13": {
+      "message": "Uusi välilehti avataan, antakaa pääsy kameraan"
+   },
+   "msg_14": {
+      "message": "Et voi vielä tallentaa kameraasi"
+   },
+   "msg_15": {
+      "message": "Kiitos! Nyt voit tallentaa kamerallasi"
+   },
+   "msg_16": {
+      "message": "Kiitos! Nyt voit nauhoittaa mikrofonilla"
+   },
+   "msg_2": {
+      "message": "Uusi välilehti avataan, ja sinua pyydetään myöntämään pääsy kameraasi tallennusta varten"
+   },
+   "msg_3": {
+      "message": "Tämän sivun kaappausalue on poistettu käytöstä selaimen käyttöoikeuksilla. Huomaa, että Chrome Web Store -laajennuksen sääntöjen mukaan ei voi toimia kaupan sivuilla ja etusivulla."
+   },
+   "msg_4": {
+      "message": "Virhe"
+   },
+   "msg_5": {
+      "message": "Oletko varma?"
+   },
+   "msg_6": {
+      "message": "Peruuttaa"
+   },
+   "msg_7": {
+      "message": "Uusi välilehti avataan, antakaa pääsy mikrofoniin"
+   },
+   "msg_8": {
+      "message": "Ole hyvä ja anna käyttöoikeus"
+   },
+   "msg_9": {
+      "message": "peruttu"
+   },
+   "sub_1": {
+      "message": "Sen avulla voit äänittää äänen mikrofonista."
+   },
+   "sub_2": {
+      "message": "Se lisää kaiuttimista järjestelmän äänen."
+   },
+   "sub_3": {
+      "message": "Se sallii videon sieppaamisen kamerasta."
+   },
+   "sub_4": {
+      "message": "Lähtövideon laatu."
+   },
+   "tab_1": {
+      "message": "alue"
+   },
+   "tab_2": {
+      "message": "kieleke"
+   },
+   "tab_3": {
+      "message": "kuvaruutu"
+   },
+   "text_1": {
+      "message": "Äänitä"
+   },
+   "text_10": {
+      "message": "Salli REC: n käyttää mikrofoniasi"
+   },
+   "text_2": {
+      "message": "Tallenna järjestelmän ääni"
+   },
+   "text_3": {
+      "message": "Kaappaa kamerasi"
+   },
+   "text_4": {
+      "message": "Yö"
+   },
+   "text_5": {
+      "message": "Päivä"
+   },
+   "text_6": {
+      "message": "Näytön tallennus Google-asemaan"
+   },
+   "text_7": {
+      "message": "Tallenna näyttöalue"
+   },
+   "text_8": {
+      "message": "Lähtövideon laatu"
+   },
+   "text_9": {
+      "message": "Salli näytönauhurin käyttää kameraasi"
+   },
+   "text_rate": {
+      "message": "Ole hyvä ja arvioi meitä!"
+   },
+   "text_tutorial": {
+      "message": "Apuopas, sovelluksen käyttö"
+   }
+}

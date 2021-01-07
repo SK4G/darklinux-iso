@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "Free Simple tool for high quality video capturing from Tab, Area of the page and full Screen, with Mic, Webcam and System audio"
+   },
+   "app_name": {
+      "message": "Screen Recorder"
+   },
+   "btn_1": {
+      "message": "Record Chrome Tab Area"
+   },
+   "btn_2": {
+      "message": "Record Full Chrome Tab"
+   },
+   "btn_3": {
+      "message": "Record Your Desktop"
+   },
+   "msg_1": {
+      "message": "New Tab will be opened, and you will be asked to grant access to your Microphone to recording"
+   },
+   "msg_10": {
+      "message": "You can't record your microphone yet"
+   },
+   "msg_11": {
+      "message": "Yes, I am sure!"
+   },
+   "msg_12": {
+      "message": "Restore default settings"
+   },
+   "msg_13": {
+      "message": "New tab will be opened, please give access to your camera"
+   },
+   "msg_14": {
+      "message": "You can't record your camera yet"
+   },
+   "msg_15": {
+      "message": "Thank you! Now you can record with your Camera"
+   },
+   "msg_16": {
+      "message": "Thank you! Now you can record with your Microphone"
+   },
+   "msg_2": {
+      "message": "New Tab will be opened, and you will be asked to grant access to your Camera to recording"
+   },
+   "msg_3": {
+      "message": "Capturing Area on this page is disabled by browser permissions. \n\n Please, notice according to the rules of the Chrome Web Store extension can not work on the store pages and home page."
+   },
+   "msg_4": {
+      "message": "Error"
+   },
+   "msg_5": {
+      "message": "Are you sure?"
+   },
+   "msg_6": {
+      "message": "Cancel"
+   },
+   "msg_7": {
+      "message": "New tab will be opened, please give access to your microphone"
+   },
+   "msg_8": {
+      "message": "Please, grant access"
+   },
+   "msg_9": {
+      "message": "Cancelled"
+   },
+   "sub_1": {
+      "message": "It allows to record voice from your microphone."
+   },
+   "sub_2": {
+      "message": "It add system sound from your speakers."
+   },
+   "sub_3": {
+      "message": "It allow capture video from your camera."
+   },
+   "sub_4": {
+      "message": "Output Video Quality."
+   },
+   "tab_1": {
+      "message": "Area"
+   },
+   "tab_2": {
+      "message": "Tab"
+   },
+   "tab_3": {
+      "message": "Screen"
+   },
+   "text_1": {
+      "message": "Record Voice"
+   },
+   "text_10": {
+      "message": "Please allow REC to access your Microphone"
+   },
+   "text_2": {
+      "message": "Record System Sound"
+   },
+   "text_3": {
+      "message": "Capture Your Camera"
+   },
+   "text_4": {
+      "message": "Night"
+   },
+   "text_5": {
+      "message": "Day"
+   },
+   "text_6": {
+      "message": "Screen Record to Your Google drive"
+   },
+   "text_7": {
+      "message": "Record Screen Area"
+   },
+   "text_8": {
+      "message": "Quality of Output Video"
+   },
+   "text_9": {
+      "message": "Please allow Screen Recorder to access your Camera"
+   },
+   "text_rate": {
+      "message": "Please Rate Us!"
+   },
+   "text_tutorial": {
+      "message": "Help tutorial, how to use app"
+   }
+}

@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "Ókeypis einfalt tól fyrir hágæða myndbandsupptöku frá flipa, svæði síðunnar og fullur skjár, með hljóðnemi, webcam og kerfishljóð"
+   },
+   "app_name": {
+      "message": "Skjárupptökutæki"
+   },
+   "btn_1": {
+      "message": "Taktu upp Chrome flipasvæðið"
+   },
+   "btn_2": {
+      "message": "Taktu upp allan Chrome flipann"
+   },
+   "btn_3": {
+      "message": "Taktu upp skjáborðið þitt"
+   },
+   "msg_1": {
+      "message": "Nýr flipi verður opnaður og þú verður beðinn um að veita aðgang að hljóðnemanum þínum til upptöku"
+   },
+   "msg_10": {
+      "message": "Þú getur ekki tekið upp hljóðnemann þinn ennþá"
+   },
+   "msg_11": {
+      "message": "Já, ég er viss!"
+   },
+   "msg_12": {
+      "message": "Endurheimta sjálfgefnar stillingar"
+   },
+   "msg_13": {
+      "message": "Nýr flipi verður opnaður, vinsamlegast gefðu aðgang að myndavélinni þinni"
+   },
+   "msg_14": {
+      "message": "Þú getur ekki tekið upp myndavélina þína ennþá"
+   },
+   "msg_15": {
+      "message": "Þakka þér fyrir! Nú geturðu tekið upp með myndavélinni þinni"
+   },
+   "msg_16": {
+      "message": "Þakka þér fyrir! Nú geturðu tekið upp með hljóðnemanum þínum"
+   },
+   "msg_2": {
+      "message": "Nýr flipi verður opnaður og þú verður beðinn um að veita aðgang að myndavélinni þinni til upptöku"
+   },
+   "msg_3": {
+      "message": "Handtaka svæðis á þessari síðu er óvirk með leyfi vafra. Vinsamlegast athugaðu að samkvæmt reglum viðbótar Chrome Web Store getur það ekki virkað á verslunarsíðunum og heimasíðunni."
+   },
+   "msg_4": {
+      "message": "Villa"
+   },
+   "msg_5": {
+      "message": "Ertu viss?"
+   },
+   "msg_6": {
+      "message": "Hætta við"
+   },
+   "msg_7": {
+      "message": "Nýr flipi verður opnaður, vinsamlegast gefðu aðgang að hljóðnemanum þínum"
+   },
+   "msg_8": {
+      "message": "Vinsamlegast veittu aðgang"
+   },
+   "msg_9": {
+      "message": "Hætt við"
+   },
+   "sub_1": {
+      "message": "Það gerir kleift að taka upp rödd úr hljóðnemanum þínum."
+   },
+   "sub_2": {
+      "message": "Það bætir við kerfishljóði frá hátalarunum þínum."
+   },
+   "sub_3": {
+      "message": "Það gerir kleift að taka myndband úr myndavélinni þinni."
+   },
+   "sub_4": {
+      "message": "Úttak myndgæða."
+   },
+   "tab_1": {
+      "message": "Svæði"
+   },
+   "tab_2": {
+      "message": "Flipi"
+   },
+   "tab_3": {
+      "message": "Skjár"
+   },
+   "text_1": {
+      "message": "Taktu upp rödd"
+   },
+   "text_10": {
+      "message": "Vinsamlegast leyfðu REC að fá aðgang að hljóðnemanum þínum"
+   },
+   "text_2": {
+      "message": "Taktu upp hljóðkerfi"
+   },
+   "text_3": {
+      "message": "Handtaktu myndavélina þína"
+   },
+   "text_4": {
+      "message": "Nótt"
+   },
+   "text_5": {
+      "message": "Dagur"
+   },
+   "text_6": {
+      "message": "Skjáupptaka í Google drifinu þínu"
+   },
+   "text_7": {
+      "message": "Taka upp skjásvæði"
+   },
+   "text_8": {
+      "message": "Gæði framleiðslumyndbands"
+   },
+   "text_9": {
+      "message": "Vinsamlegast leyfðu Screen Recorder að fá aðgang að myndavélinni þinni"
+   },
+   "text_rate": {
+      "message": "Vinsamlegast metið okkur!"
+   },
+   "text_tutorial": {
+      "message": "Hjálp námskeið, hvernig á að nota app"
+   }
+}

@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "免費的簡單工具，用於從選項卡，頁面區域和全屏捕獲高質量視頻，並帶有麥克風，網絡攝像頭和系統音頻"
+   },
+   "app_name": {
+      "message": "屏幕錄像機"
+   },
+   "btn_1": {
+      "message": "記錄Chrome標籤頁區域"
+   },
+   "btn_2": {
+      "message": "記錄完整的Chrome標籤"
+   },
+   "btn_3": {
+      "message": "記錄您的桌面"
+   },
+   "msg_1": {
+      "message": "新標籤頁將打開，並要求您授予對麥克風的訪問權限以進行錄音"
+   },
+   "msg_10": {
+      "message": "您還不能錄製麥克風"
+   },
+   "msg_11": {
+      "message": "是的，我敢肯定！"
+   },
+   "msg_12": {
+      "message": "恢復默認設置"
+   },
+   "msg_13": {
+      "message": "新標籤頁將打開，請訪問您的相機"
+   },
+   "msg_14": {
+      "message": "您尚無法錄製相機"
+   },
+   "msg_15": {
+      "message": "謝謝！現在您可以用相機拍攝"
+   },
+   "msg_16": {
+      "message": "謝謝！現在您可以用麥克風錄製"
+   },
+   "msg_2": {
+      "message": "新標籤頁將打開，並要求您授予對攝像機的訪問權限以進行記錄"
+   },
+   "msg_3": {
+      "message": "此頁面上的捕獲區域已被瀏覽器權限禁用。請注意，根據Chrome Web Store擴展程序的規則，不能在商店頁面和主頁上使用。"
+   },
+   "msg_4": {
+      "message": "錯誤"
+   },
+   "msg_5": {
+      "message": "你確定嗎？"
+   },
+   "msg_6": {
+      "message": "取消"
+   },
+   "msg_7": {
+      "message": "新標籤頁將打開，請允許您使用麥克風"
+   },
+   "msg_8": {
+      "message": "請授予訪問權限"
+   },
+   "msg_9": {
+      "message": "取消"
+   },
+   "sub_1": {
+      "message": "它可以錄製麥克風中的聲音。"
+   },
+   "sub_2": {
+      "message": "它會增加揚聲器的系統聲音。"
+   },
+   "sub_3": {
+      "message": "它允許從您的相機捕獲視頻。"
+   },
+   "sub_4": {
+      "message": "輸出視頻質量。"
+   },
+   "tab_1": {
+      "message": "區域"
+   },
+   "tab_2": {
+      "message": "標籤"
+   },
+   "tab_3": {
+      "message": "屏幕"
+   },
+   "text_1": {
+      "message": "錄音"
+   },
+   "text_10": {
+      "message": "請允許REC訪問您的麥克風"
+   },
+   "text_2": {
+      "message": "記錄系統聲音"
+   },
+   "text_3": {
+      "message": "捕捉相機"
+   },
+   "text_4": {
+      "message": "晚"
+   },
+   "text_5": {
+      "message": "天"
+   },
+   "text_6": {
+      "message": "屏幕記錄到您的Google驅動器"
+   },
+   "text_7": {
+      "message": "記錄畫面區域"
+   },
+   "text_8": {
+      "message": "輸出視頻質量"
+   },
+   "text_9": {
+      "message": "請允許屏幕錄像機訪問您的相機"
+   },
+   "text_rate": {
+      "message": "請給我們評分！"
+   },
+   "text_tutorial": {
+      "message": "幫助教程，如何使用應用"
+   }
+}

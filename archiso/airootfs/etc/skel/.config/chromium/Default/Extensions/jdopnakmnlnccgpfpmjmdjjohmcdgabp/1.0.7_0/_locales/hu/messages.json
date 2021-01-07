@@ -1,0 +1,122 @@
+{
+   "app_description": {
+      "message": "Ingyenes, egyszerű eszköz a kiváló minőségű videó rögzítéséhez a lapokról, az oldal területéről és a teljes képernyőről, mikrofonnal, webkamerával és rendszerhanggal"
+   },
+   "app_name": {
+      "message": "Képernyő felvevő"
+   },
+   "btn_1": {
+      "message": "Rögzítse a Chrome Tab területét"
+   },
+   "btn_2": {
+      "message": "Rögzítse a Teljes Chrome fület"
+   },
+   "btn_3": {
+      "message": "Rögzítse az asztalát"
+   },
+   "msg_1": {
+      "message": "Megnyílik az Új lap, és felkérést kap arra, hogy engedélyezze a mikrofon rögzítéséhez való hozzáférését"
+   },
+   "msg_10": {
+      "message": "A mikrofont még nem rögzítheti"
+   },
+   "msg_11": {
+      "message": "Igen, biztos vagyok benne!"
+   },
+   "msg_12": {
+      "message": "Visszaállítja az alapértelmezett beállításokat"
+   },
+   "msg_13": {
+      "message": "Megnyílik az új lap, kérjük, adja meg a kameráját"
+   },
+   "msg_14": {
+      "message": "Még nem rögzítheti kameráját"
+   },
+   "msg_15": {
+      "message": "Köszönöm! Most felveheti a fényképezőgéppel"
+   },
+   "msg_16": {
+      "message": "Köszönöm! Most már rögzíthet a mikrofonnal"
+   },
+   "msg_2": {
+      "message": "Megnyílik az Új lap, és felkérést kap arra, hogy engedélyezze a fényképezőgép felvételéhez való hozzáférését"
+   },
+   "msg_3": {
+      "message": "A böngészési engedélyek letiltják az ezen az oldalon található területet. Felhívjuk figyelmét, hogy a Chrome Internetes áruház kiterjesztés szabályai szerint nem működhetnek az üzletek és a kezdőlapokon."
+   },
+   "msg_4": {
+      "message": "Hiba"
+   },
+   "msg_5": {
+      "message": "biztos vagy ebben?"
+   },
+   "msg_6": {
+      "message": "Megszünteti"
+   },
+   "msg_7": {
+      "message": "Megnyílik az új lap, kérjük, adja meg a mikrofonját"
+   },
+   "msg_8": {
+      "message": "Kérjük, adja meg a hozzáférést"
+   },
+   "msg_9": {
+      "message": "Törölve"
+   },
+   "sub_1": {
+      "message": "Ez lehetővé teszi a hang rögzítését a mikrofonról."
+   },
+   "sub_2": {
+      "message": "Hozzáadja a rendszer hangját a hangszórókból."
+   },
+   "sub_3": {
+      "message": "Ez lehetővé teszi a videó rögzítését a fényképezőgépről."
+   },
+   "sub_4": {
+      "message": "Kimeneti videó minőség."
+   },
+   "tab_1": {
+      "message": "Terület"
+   },
+   "tab_2": {
+      "message": "Tab"
+   },
+   "tab_3": {
+      "message": "Képernyő"
+   },
+   "text_1": {
+      "message": "Hangfelvétel"
+   },
+   "text_10": {
+      "message": "Kérjük, hagyja, hogy a REC hozzáférjen a mikrofonjához"
+   },
+   "text_2": {
+      "message": "Rendszer hang felvétele"
+   },
+   "text_3": {
+      "message": "Ragadja meg a fényképezőgépet"
+   },
+   "text_4": {
+      "message": "Éjszaka"
+   },
+   "text_5": {
+      "message": "Nap"
+   },
+   "text_6": {
+      "message": "Képernyőfelvétel a Google meghajtóra"
+   },
+   "text_7": {
+      "message": "Felvétel képernyő területe"
+   },
+   "text_8": {
+      "message": "A kimenő videó minősége"
+   },
+   "text_9": {
+      "message": "Kérjük, hagyja, hogy a Képernyő-felvevő hozzáférhessen a fényképezőgépéhez"
+   },
+   "text_rate": {
+      "message": "Kérjük, értékelje minket!"
+   },
+   "text_tutorial": {
+      "message": "Súgó bemutató, hogyan kell használni az alkalmazást"
+   }
+}
