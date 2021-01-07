@@ -123,7 +123,7 @@ local editor            = os.getenv("EDITOR") or "nano"
 local editorgui         = "code"
 local filemanager       = "thunar"
 local mailclient        = "evolution"
-local mediaplayer       = "mpv"
+local mediaplayer       = "vlc"
 local terminal          = "urxvt"
 local virtualmachine    = "virtualbox"
 
@@ -138,11 +138,11 @@ awful.util.tagnames = {  "➊", "➋", "➌", "➍", "➎", "➏", "➐", "➑",
 awful.layout.suit.tile.left.mirror = true
 awful.layout.layouts = {
     awful.layout.suit.fair,
-    --awful.layout.suit.fair.horizontal,
     awful.layout.suit.tile,
+    awful.layout.suit.fair.horizontal,
     awful.layout.suit.floating,
     --awful.layout.suit.max.fullscreen,
-    awful.layout.suit.max,
+    --awful.layout.suit.max,
     --awful.layout.suit.tile.left,
     --awful.layout.suit.tile.bottom,
     --awful.layout.suit.tile.top,
@@ -331,18 +331,18 @@ globalkeys = my_table.join(
         {description = "app launcher" , group = "function keys" }),
     awful.key({ modkey }, "F5", function () awful.util.spawn( "pamac-manager %U" ) end,
         {description = "app store" , group = "function keys" }),
-    awful.key({ modkey }, "F6", function () awful.util.spawn( "vlc --video-on-top" ) end,
-        {description = "vlc" , group = "function keys" }),
+    awful.key({ modkey }, "F6", function () awful.util.spawn( "xfce4-settings-manager" ) end,
+        {description = "system settings" , group = "function keys" }),
     awful.key({ modkey }, "F7", function () awful.util.spawn( "virtualbox" ) end,
         {description = virtualmachine , group = "function keys" }),
     awful.key({ modkey }, "F8", function () awful.util.spawn( "conky-toggle" ) end,
         {description = "conky-toggle" , group = "function keys" }),
-    awful.key({ modkey }, "F9", function () awful.util.spawn( mailclient ) end,
-        {description = mailclient , group = "function keys" }),
-    awful.key({ modkey }, "F10", function () awful.util.spawn( mediaplayer ) end,
-        {description = mediaplayer , group = "function keys" }),
-    awful.key({ modkey }, "F11", function () awful.util.spawn( "retroarch" ) end,
+    awful.key({ modkey }, "F9", function () awful.util.spawn( "vlc --video-on-top" ) end,
+        {description = "vlc" , group = "function keys" }),
+    awful.key({ modkey }, "F10", function () awful.util.spawn( "retroarch" ) end,
         {description = "retroarch" , group = "function keys" }),
+    awful.key({ modkey }, "F11", function () awful.util.spawn( stremio ) end,
+        {description = "stremio" , group = "function keys" }),
     awful.key({ modkey }, "F12", function () awful.util.spawn( "rofi -show run" ) end,
         {description = "rofi" , group = "function keys" }),
 
@@ -965,17 +965,17 @@ awful.rules.rules = {
     { rule = { class = "plexmediaplayer" },
         properties = { tag = awful.util.tagnames[4], switchtotag = true } },
 
-    --{ rule = { class = "Stremio" },
+    --{ rule = { class = "stremio" },
         --properties = { tag = awful.util.tagnames[4], switchtotag = true  } },
 
     -- Set applications to always map on the tag 5 on any screen.
-    { rule = { class = "Stremio" },
+    { rule = { class = "stremio" },
         properties = { tag = awful.util.tagnames[5], switchtotag = true  } },
     --{ rule = { class = "retroarch" },
         --properties = { tag = awful.util.tagnames[5] , switchtotag = false  } },
 
     -- Set applications to always map on the tag 6 on any screen.
-    --{ rule = { class = "Stremio" },
+    --{ rule = { class = "stremio" },
         --properties = { tag = awful.util.tagnames[6], switchtotag = true  } },
     --{ rule = { class = "retroarch" },
         --properties = { tag = awful.util.tagnames[6] , switchtotag = false  } },
@@ -1018,7 +1018,7 @@ awful.rules.rules = {
          --  properties = { screen = 1, tag = awful.util.tagnames[2], switchtotag = true  } },
 
     -- Set applications to always map on the tag 3 on screen 1.
-    --{ rule = { class = "Stremio" },
+    --{ rule = { class = "stremio" },
         --properties = { screen = 1, tag = awful.util.tagnames[3], switchtotag = false } },
 
     -- Set applications to always map on the tag 4 on screen 1.
@@ -1064,7 +1064,7 @@ awful.rules.rules = {
          --  properties = { screen = 2, tag = awful.util.tagnames[2], switchtotag = true  } },
 
     -- Set applications to always map on the tag 3 on screen 2.
-    --{ rule = { class = "Stremio" },
+    --{ rule = { class = "stremio" },
         --properties = { screen = 2, tag = awful.util.tagnames[3], switchtotag = true } },
 
     -- Set applications to always map on the tag 4 on screen 2.
@@ -1264,7 +1264,8 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 -- }}}
 
--- Autostart applications
+-- Autostart applications                          -- launch arandr with alt+a
+awful.spawn.with_shell("~/.screenlayout/*.sh")     -- save only one layout with arandr inside ~/.screenlayout/ 
 awful.spawn.with_shell("~/.config/awesome/autostart.sh")
 awful.spawn.with_shell("picom -b --config  $HOME/.config/awesome/picom.conf")
 awful.spawn.with_shell("nm-applet")
