@@ -1,0 +1,69 @@
+2021/01/06-16:53:13.059 20903 Reusing MANIFEST /home/luiz/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2021/01/06-16:53:13.059 20903 Recovering log #1751
+2021/01/06-16:53:13.059 20903 Reusing old log /home/luiz/.config/chromium/Default/Local Storage/leveldb/001751.log 
+2021/01/06-17:27:34.627 2b61c Level-0 table #1755: started
+2021/01/06-17:27:34.629 2b61c Level-0 table #1755: 17009 bytes OK
+2021/01/06-17:27:34.630 2b61c Delete type=0 #1751
+2021/01/06-18:30:36.881 37310 Level-0 table #1757: started
+2021/01/06-18:30:36.884 37310 Level-0 table #1757: 16193 bytes OK
+2021/01/06-18:30:36.886 37310 Delete type=0 #1754
+2021/01/06-18:30:36.886 3730f Compacting 4@0 + 1@1 files
+2021/01/06-18:30:36.930 3730f Generated table #1758@0: 4108 keys, 1379123 bytes
+2021/01/06-18:30:36.930 3730f Compacted 4@0 + 1@1 files => 1379123 bytes
+2021/01/06-18:30:36.931 3730f compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/01/06-18:30:36.931 3730f Delete type=2 #1757
+2021/01/06-18:30:36.931 3730f Delete type=2 #1749
+2021/01/06-18:30:36.931 3730f Delete type=2 #1755
+2021/01/06-18:30:36.931 3730f Delete type=2 #1746
+2021/01/06-18:30:36.931 3730f Delete type=2 #1752
+2021/01/06-19:14:07.432 3f8c8 Level-0 table #1760: started
+2021/01/06-19:14:07.433 3f8c8 Level-0 table #1760: 15899 bytes OK
+2021/01/06-19:14:07.434 3f8c8 Delete type=0 #1756
+2021/01/06-19:44:07.481 41122 Level-0 table #1762: started
+2021/01/06-19:44:07.484 41122 Level-0 table #1762: 17840 bytes OK
+2021/01/06-19:44:07.485 41122 Delete type=0 #1759
+2021/01/06-20:59:07.473 4c77a Level-0 table #1764: started
+2021/01/06-20:59:07.474 4c77a Level-0 table #1764: 9388 bytes OK
+2021/01/06-20:59:07.476 4c77a Delete type=0 #1761
+2021/01/06-21:53:32.464 58e0d Level-0 table #1766: started
+2021/01/06-21:53:32.466 58e0d Level-0 table #1766: 16300 bytes OK
+2021/01/06-21:53:32.467 58e0d Delete type=0 #1763
+2021/01/06-21:53:32.467 58e0d Compacting 4@0 + 1@1 files
+2021/01/06-21:53:32.514 58e0d Generated table #1767@0: 4117 keys, 1378735 bytes
+2021/01/06-21:53:32.514 58e0d Compacted 4@0 + 1@1 files => 1378735 bytes
+2021/01/06-21:53:32.515 58e0d compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/01/06-21:53:32.515 58e0d Delete type=2 #1766
+2021/01/06-21:53:32.515 58e0d Delete type=2 #1760
+2021/01/06-21:53:32.515 58e0d Delete type=2 #1764
+2021/01/06-21:53:32.515 58e0d Delete type=2 #1762
+2021/01/06-21:53:32.515 58e0d Delete type=2 #1758
+2021/01/06-23:46:32.464 6e28c Level-0 table #1769: started
+2021/01/06-23:46:32.465 6e28c Level-0 table #1769: 10538 bytes OK
+2021/01/06-23:46:32.466 6e28c Delete type=0 #1765
+2021/01/07-01:40:32.463 75e5d Level-0 table #1771: started
+2021/01/07-01:40:32.465 75e5d Level-0 table #1771: 9566 bytes OK
+2021/01/07-01:40:32.466 75e5d Delete type=0 #1768
+2021/01/07-03:33:32.463 7d1f0 Level-0 table #1773: started
+2021/01/07-03:33:32.465 7d1f0 Level-0 table #1773: 8978 bytes OK
+2021/01/07-03:33:32.466 7d1f0 Delete type=0 #1770
+2021/01/07-05:24:32.463 84aa4 Level-0 table #1775: started
+2021/01/07-05:24:32.464 84aa4 Level-0 table #1775: 9826 bytes OK
+2021/01/07-05:24:32.465 84aa4 Delete type=0 #1772
+2021/01/07-05:24:32.466 84aba Compacting 4@0 + 1@1 files
+2021/01/07-05:24:32.511 84aba Generated table #1776@0: 4117 keys, 1378750 bytes
+2021/01/07-05:24:32.511 84aba Compacted 4@0 + 1@1 files => 1378750 bytes
+2021/01/07-05:24:32.512 84aba compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/01/07-05:24:32.512 84aba Delete type=2 #1775
+2021/01/07-05:24:32.512 84aba Delete type=2 #1771
+2021/01/07-05:24:32.512 84aba Delete type=2 #1767
+2021/01/07-05:24:32.512 84aba Delete type=2 #1769
+2021/01/07-05:24:32.512 84aba Delete type=2 #1773
+2021/01/07-06:45:51.151 8c18c Level-0 table #1778: started
+2021/01/07-06:45:51.153 8c18c Level-0 table #1778: 17290 bytes OK
+2021/01/07-06:45:51.154 8c18c Delete type=0 #1774
+2021/01/07-06:49:07.663 8eabf Level-0 table #1780: started
+2021/01/07-06:49:07.664 8eabf Level-0 table #1780: 17051 bytes OK
+2021/01/07-06:49:07.665 8eabf Delete type=0 #1777
+2021/01/07-06:51:31.934 8c1c2 Level-0 table #1782: started
+2021/01/07-06:51:31.935 8c1c2 Level-0 table #1782: 25109 bytes OK
+2021/01/07-06:51:31.937 8c1c2 Delete type=0 #1779

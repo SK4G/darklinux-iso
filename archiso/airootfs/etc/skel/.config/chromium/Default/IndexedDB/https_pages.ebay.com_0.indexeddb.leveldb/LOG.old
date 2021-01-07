@@ -1,0 +1,8 @@
+2021/01/07-06:50:30.750 8c1b2 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_pages.ebay.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/07-06:50:30.750 8c1b2 Recovering log #679
+2021/01/07-06:50:30.750 8c1b2 Reusing old log /home/luiz/.config/chromium/Default/IndexedDB/https_pages.ebay.com_0.indexeddb.leveldb/000679.log 
+2021/01/07-06:50:35.308 8c1b2 Level-0 table #683: started
+2021/01/07-06:50:35.308 8c1b2 Level-0 table #683: 0 bytes OK
+2021/01/07-06:50:35.308 8c1b2 Delete type=0 #679
+2021/01/07-06:50:35.308 8c1b2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/07-06:50:35.308 8c1b2 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

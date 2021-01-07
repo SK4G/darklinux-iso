@@ -1,0 +1,5 @@
+2020/12/26-01:12:12.007 1e2a9 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/26-01:12:14.877 1e2a9 Level-0 table #5: started
+2020/12/26-01:12:14.879 1e2a9 Level-0 table #5: 335 bytes OK
+2020/12/26-01:12:14.880 1e2a9 Delete type=0 #3
+2020/12/26-01:12:14.880 1e2a9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

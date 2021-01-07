@@ -1,0 +1,15 @@
+2020/12/29-04:40:25.528 32e31 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_vk.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/29-04:40:25.529 32e31 Recovering log #4
+2020/12/29-04:40:25.529 32e31 Reusing old log /home/luiz/.config/chromium/Default/IndexedDB/https_vk.com_0.indexeddb.leveldb/000004.log 
+2020/12/29-04:40:57.530 76bde Level-0 table #8: started
+2020/12/29-04:40:57.532 76bde Level-0 table #8: 490 bytes OK
+2020/12/29-04:40:57.533 76bde Delete type=0 #4
+2020/12/29-04:40:57.533 76bde Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/12/29-04:40:57.533 76bde Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0c\x00s\x00w\x00_\x00p\x00u\x00s\x00h\x00_\x00h\x00a\x00s\x00h' @ 74 : 1
+2020/12/29-04:40:57.533 76bde Compacting 1@1 + 1@2 files
+2020/12/29-04:40:57.534 76bde Generated table #9@1: 20 keys, 585 bytes
+2020/12/29-04:40:57.534 76bde Compacted 1@1 + 1@2 files => 585 bytes
+2020/12/29-04:40:57.535 76bde compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/12/29-04:40:57.535 76bde Delete type=2 #5
+2020/12/29-04:40:57.535 76bde Delete type=2 #8
+2020/12/29-04:40:57.536 76bde Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0c\x00s\x00w\x00_\x00p\x00u\x00s\x00h\x00_\x00h\x00a\x00s\x00h' @ 74 : 1 .. (end); will stop at (end)

@@ -1,0 +1,24 @@
+2020/12/28-16:06:52.720 10974 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_forums.serverbuilds.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/28-16:06:52.721 10974 Recovering log #7
+2020/12/28-16:06:52.721 10974 Reusing old log /home/luiz/.config/chromium/Default/IndexedDB/https_forums.serverbuilds.net_0.indexeddb.leveldb/000007.log 
+2020/12/28-16:09:59.367 10974 Level-0 table #12: started
+2020/12/28-16:09:59.381 10974 Level-0 table #12: 855782 bytes OK
+2020/12/28-16:09:59.382 10974 Delete type=0 #7
+2020/12/28-16:09:59.388 10974 Compacting 1@1 + 1@2 files
+2020/12/28-16:09:59.396 10974 Generated table #13@1: 1486 keys, 170654 bytes
+2020/12/28-16:09:59.396 10974 Compacted 1@1 + 1@2 files => 170654 bytes
+2020/12/28-16:09:59.396 10974 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/12/28-16:09:59.396 10974 Delete type=2 #9
+2020/12/28-16:09:59.396 10974 Delete type=2 #12
+2020/12/28-16:11:35.929 1b95d Level-0 table #15: started
+2020/12/28-16:11:35.931 1b95d Level-0 table #15: 5593 bytes OK
+2020/12/28-16:11:35.933 1b95d Delete type=0 #11
+2020/12/28-16:11:35.933 1b95d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/12/28-16:11:35.933 1b95d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\xe0\x1bv\xb6jwB\x00\x01t\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00r\x00u\x00m\x00s\x00.\x00s\x00e\x00r\x00v\x00e\x00r\x00b\x00u\x00i\x00l\x00d\x00s\x00.\x00n\x00e\x00t\x00/\x00u\x00p\x00l\x00o\x00a\x00d\x00s\x00/\x00d\x00e\x00f\x00a\x00u\x00l\x00t\x00/\x00o\x00r\x00i\x00g\x00i\x00n\x00a\x00l\x00/\x001\x00X\x00/\x00f\x007\x001\x00f\x00f\x004\x000\x004\x000\x004\x00e\x006\x009\x006\x00e\x002\x00b\x001\x009\x00f\x006\x00f\x001\x00a\x000\x00d\x009\x001\x006\x003\x003\x004\x009\x00d\x007\x005\x003\x001\x00f\x00e\x00.\x00p\x00n\x00g' @ 19000 : 1
+2020/12/28-16:11:35.933 1b95d Compacting 1@1 + 1@2 files
+2020/12/28-16:11:35.941 1b95d Generated table #16@1: 1486 keys, 169919 bytes
+2020/12/28-16:11:35.941 1b95d Compacted 1@1 + 1@2 files => 169919 bytes
+2020/12/28-16:11:35.942 1b95d compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/12/28-16:11:35.943 1b95d Delete type=2 #13
+2020/12/28-16:11:35.943 1b95d Delete type=2 #15
+2020/12/28-16:11:35.943 1b95d Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\xe0\x1bv\xb6jwB\x00\x01t\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00r\x00u\x00m\x00s\x00.\x00s\x00e\x00r\x00v\x00e\x00r\x00b\x00u\x00i\x00l\x00d\x00s\x00.\x00n\x00e\x00t\x00/\x00u\x00p\x00l\x00o\x00a\x00d\x00s\x00/\x00d\x00e\x00f\x00a\x00u\x00l\x00t\x00/\x00o\x00r\x00i\x00g\x00i\x00n\x00a\x00l\x00/\x001\x00X\x00/\x00f\x007\x001\x00f\x00f\x004\x000\x004\x000\x004\x00e\x006\x009\x006\x00e\x002\x00b\x001\x009\x00f\x006\x00f\x001\x00a\x000\x00d\x009\x001\x006\x003\x003\x004\x009\x00d\x007\x005\x003\x001\x00f\x00e\x00.\x00p\x00n\x00g' @ 19000 : 1 .. (end); will stop at (end)

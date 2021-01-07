@@ -1,0 +1,5 @@
+2020/12/28-12:34:11.636 d224 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_www.nfl.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/28-12:51:49.067 f38d Level-0 table #5: started
+2020/12/28-12:51:49.069 f38d Level-0 table #5: 5625 bytes OK
+2020/12/28-12:51:49.070 f38d Delete type=0 #3
+2020/12/28-12:51:49.070 f38d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

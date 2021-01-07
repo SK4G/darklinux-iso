@@ -1,0 +1,6 @@
+2021/01/06-14:18:46.924 27ca Reusing MANIFEST /home/luiz/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2021/01/06-14:18:46.924 27ca Recovering log #134
+2021/01/06-14:18:46.925 27ca Reusing old log /home/luiz/.config/chromium/Default/Sync Data/LevelDB/000134.log 
+2021/01/06-16:20:31.772 1a399 Level-0 table #138: started
+2021/01/06-16:20:31.777 1a399 Level-0 table #138: 93579 bytes OK
+2021/01/06-16:20:31.779 1a399 Delete type=0 #134

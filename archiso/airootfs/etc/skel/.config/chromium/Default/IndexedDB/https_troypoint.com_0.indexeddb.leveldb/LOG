@@ -1,0 +1,5 @@
+2020/12/26-15:47:17.731 145a0 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_troypoint.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/26-15:48:15.321 145a0 Level-0 table #5: started
+2020/12/26-15:48:15.321 145a0 Level-0 table #5: 6092 bytes OK
+2020/12/26-15:48:15.322 145a0 Delete type=0 #3
+2020/12/26-15:48:15.322 145a0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

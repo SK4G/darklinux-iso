@@ -1,0 +1,15 @@
+2020/12/25-23:28:56.393 16c7d Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_www.techidence.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/25-23:28:56.393 16c7d Recovering log #4
+2020/12/25-23:28:56.393 16c7d Reusing old log /home/luiz/.config/chromium/Default/IndexedDB/https_www.techidence.com_0.indexeddb.leveldb/000004.log 
+2020/12/26-00:56:26.721 1c578 Level-0 table #8: started
+2020/12/26-00:56:26.722 1c578 Level-0 table #8: 3420 bytes OK
+2020/12/26-00:56:26.723 1c578 Delete type=0 #4
+2020/12/26-00:56:26.723 1c578 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/12/26-00:56:26.723 1c578 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 613 : 1
+2020/12/26-00:56:26.723 1c578 Compacting 1@1 + 1@2 files
+2020/12/26-00:56:26.725 1c578 Generated table #9@1: 98 keys, 2201 bytes
+2020/12/26-00:56:26.725 1c578 Compacted 1@1 + 1@2 files => 2201 bytes
+2020/12/26-00:56:26.725 1c578 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/12/26-00:56:26.726 1c578 Delete type=2 #5
+2020/12/26-00:56:26.726 1c578 Delete type=2 #8
+2020/12/26-00:56:26.726 1c578 Manual compaction at level-1 from '\x00\x01\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 613 : 1 .. (end); will stop at (end)

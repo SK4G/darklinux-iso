@@ -1,0 +1,15 @@
+2020/12/27-00:20:47.203 1b97 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_edec991ca4c22ffe95ed2c9a006acfa1.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/27-00:20:47.203 1b97 Recovering log #4
+2020/12/27-00:20:47.203 1b97 Reusing old log /home/luiz/.config/chromium/Default/IndexedDB/https_edec991ca4c22ffe95ed2c9a006acfa1.safeframe.googlesyndication.com_0.indexeddb.leveldb/000004.log 
+2020/12/27-00:20:50.360 1d42 Level-0 table #8: started
+2020/12/27-00:20:50.360 1d42 Level-0 table #8: 190 bytes OK
+2020/12/27-00:20:50.362 1d42 Delete type=0 #4
+2020/12/27-00:20:50.362 1d42 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/12/27-00:20:50.362 1d42 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 9 : 1
+2020/12/27-00:20:50.362 1d42 Compacting 1@1 + 1@2 files
+2020/12/27-00:20:50.363 1d42 Generated table #9@1: 8 keys, 447 bytes
+2020/12/27-00:20:50.363 1d42 Compacted 1@1 + 1@2 files => 447 bytes
+2020/12/27-00:20:50.363 1d42 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/12/27-00:20:50.363 1d42 Delete type=2 #5
+2020/12/27-00:20:50.363 1d42 Delete type=2 #8
+2020/12/27-00:20:50.363 1d42 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 9 : 1 .. (end); will stop at (end)

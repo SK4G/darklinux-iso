@@ -1,0 +1,15 @@
+2021/01/01-16:27:32.712 6a67b Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/01-16:27:32.712 6a67b Recovering log #11
+2021/01/01-16:27:32.712 6a67b Reusing old log /home/luiz/.config/chromium/Default/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb/000011.log 
+2021/01/01-16:32:05.621 6ae03 Level-0 table #16: started
+2021/01/01-16:32:05.626 6ae03 Level-0 table #16: 169561 bytes OK
+2021/01/01-16:32:05.628 6ae03 Delete type=0 #11
+2021/01/01-16:32:05.628 6ae03 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/01-16:32:05.628 6a93d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x02\x02\x01\x0f\x00l\x00a\x00s\x00t\x00P\x00u\x00b\x00l\x00i\x00s\x00h\x00T\x00i\x00m\x00e' @ 3905 : 1
+2021/01/01-16:32:05.628 6a93d Compacting 1@1 + 1@2 files
+2021/01/01-16:32:05.631 6a93d Generated table #17@1: 33 keys, 824 bytes
+2021/01/01-16:32:05.631 6a93d Compacted 1@1 + 1@2 files => 824 bytes
+2021/01/01-16:32:05.632 6a93d compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/01-16:32:05.632 6a93d Delete type=2 #16
+2021/01/01-16:32:05.632 6a93d Delete type=2 #13
+2021/01/01-16:32:05.632 6a93d Manual compaction at level-1 from '\x00\x01\x02\x02\x01\x0f\x00l\x00a\x00s\x00t\x00P\x00u\x00b\x00l\x00i\x00s\x00h\x00T\x00i\x00m\x00e' @ 3905 : 1 .. (end); will stop at (end)

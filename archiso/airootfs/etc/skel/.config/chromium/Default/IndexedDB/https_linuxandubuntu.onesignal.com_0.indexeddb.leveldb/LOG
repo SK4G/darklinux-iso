@@ -1,0 +1,5 @@
+2020/12/31-04:01:19.124 5226 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_linuxandubuntu.onesignal.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/31-04:01:21.165 4956 Level-0 table #5: started
+2020/12/31-04:01:21.167 4956 Level-0 table #5: 6020 bytes OK
+2020/12/31-04:01:21.168 4956 Delete type=0 #3
+2020/12/31-04:01:21.168 4956 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

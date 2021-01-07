@@ -1,0 +1,8 @@
+2021/01/07-07:09:02.397 8fddc Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/07-07:09:02.398 8fddc Recovering log #4092
+2021/01/07-07:09:02.398 8fddc Reusing old log /home/luiz/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/004092.log 
+2021/01/07-07:09:34.558 90260 Level-0 table #4096: started
+2021/01/07-07:09:34.558 90260 Level-0 table #4096: 0 bytes OK
+2021/01/07-07:09:34.559 90260 Delete type=0 #4092
+2021/01/07-07:09:34.559 90260 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/07-07:09:34.559 90260 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

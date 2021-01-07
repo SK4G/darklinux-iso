@@ -1,0 +1,8 @@
+2021/01/06-14:18:47.300 28c4 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/06-14:18:47.300 28c4 Recovering log #187
+2021/01/06-14:18:47.300 28c4 Reusing old log /home/luiz/.config/chromium/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/000187.log 
+2021/01/06-14:19:19.302 28c3 Level-0 table #191: started
+2021/01/06-14:19:19.302 28c3 Level-0 table #191: 0 bytes OK
+2021/01/06-14:19:19.304 28c3 Delete type=0 #187
+2021/01/06-14:19:19.304 28c3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/06-14:19:19.304 28c3 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2020/12/27-02:08:26.091 15323 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_lpcdn.lpsnmedia.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/27-02:09:49.536 123a8 Level-0 table #5: started
+2020/12/27-02:09:49.537 123a8 Level-0 table #5: 2425 bytes OK
+2020/12/27-02:09:49.538 123a8 Delete type=0 #3
+2020/12/27-02:09:49.538 123a8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

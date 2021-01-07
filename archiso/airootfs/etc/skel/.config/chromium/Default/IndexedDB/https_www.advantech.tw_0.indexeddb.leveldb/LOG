@@ -1,0 +1,5 @@
+2020/12/27-02:08:27.822 125f0 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_www.advantech.tw_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/27-02:09:49.548 123a8 Level-0 table #5: started
+2020/12/27-02:09:49.549 123a8 Level-0 table #5: 2668 bytes OK
+2020/12/27-02:09:49.550 123a8 Delete type=0 #3
+2020/12/27-02:09:49.550 123a8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

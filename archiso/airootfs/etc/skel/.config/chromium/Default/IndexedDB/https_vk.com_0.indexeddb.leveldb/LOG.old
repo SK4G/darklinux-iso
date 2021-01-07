@@ -1,0 +1,5 @@
+2020/12/29-04:39:39.278 32e31 Reusing MANIFEST /home/luiz/.config/chromium/Default/IndexedDB/https_vk.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/29-04:40:11.328 32e31 Level-0 table #5: started
+2020/12/29-04:40:11.329 32e31 Level-0 table #5: 1201 bytes OK
+2020/12/29-04:40:11.330 32e31 Delete type=0 #3
+2020/12/29-04:40:11.330 32e31 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

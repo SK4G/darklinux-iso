@@ -1,0 +1,4 @@
+2021/01/06-14:18:46.947 27ca Reusing MANIFEST /home/luiz/.config/chromium/Default/Service Worker/Database/MANIFEST-000001
+2021/01/06-14:18:46.979 27ca Recovering log #3
+2021/01/06-14:18:46.980 27ca (ignoring error) /home/luiz/.config/chromium/Default/Service Worker/Database/000003.log: dropping 105 bytes; Corruption: missing start of fragmented record(2)
+2021/01/06-14:18:46.983 27ca Reusing old log /home/luiz/.config/chromium/Default/Service Worker/Database/000003.log 
