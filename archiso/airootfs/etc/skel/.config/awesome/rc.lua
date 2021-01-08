@@ -276,7 +276,7 @@ screen.connect_signal("arrange", function (s)
     local only_one = #s.tiled_clients == 1
     for _, c in pairs(s.clients) do
         if only_one and not c.floating or c.maximized then
-            c.border_width = 2
+            c.border_width = 0
         else
             c.border_width = beautiful.border_width
         end
@@ -341,8 +341,8 @@ globalkeys = my_table.join(
         {description = "vlc" , group = "function keys" }),
     awful.key({ modkey }, "F10", function () awful.util.spawn( "retroarch" ) end,
         {description = "retroarch" , group = "function keys" }),
-    awful.key({ modkey }, "F11", function () awful.util.spawn( stremio ) end,
-        {description = "stremio" , group = "function keys" }),
+    awful.key({ modkey }, "F11", function () awful.util.spawn( "xfce4-taskmanager" ) end,
+        {description = "task manager" , group = "function keys" }),
     awful.key({ modkey }, "F12", function () awful.util.spawn( "rofi -show run" ) end,
         {description = "rofi" , group = "function keys" }),
 
@@ -790,7 +790,7 @@ clientkeys = my_table.join(
             c:raise()
         end,
         {description = "toggle fullscreen", group = "client"}),
-    awful.key({ modkey }, 't', function (c) awful.titlebar.toggle(c)                end,
+    awful.key({ modkey }, 't', function (c) awful.titlebar.toggle(c)                         end,
         {description = 'toggle title bar', group = 'client'}),
     awful.key({ modkey, "Shift"   }, "q",      function (c) c:kill()                         end,
               {description = "close", group = "hotkeys"}),
@@ -896,14 +896,11 @@ clientbuttons = gears.table.join(
 root.keys(globalkeys)
 -- }}}
 
-
-
 -- {{{ Rules
 -- property::requests_no_titlebar, property::focusable, 
 -- property::fullscreen, property::maximized
 -- property::opacity number //Between 0 (transparent) to 1 (opaque)
 -- property::minimizedDefine it the client must be iconify, i.e. only visible in taskbar.
-
 
 -- Rules to apply to new clients (through the "manage" signal).
 awful.rules.rules = {
@@ -937,13 +934,13 @@ awful.rules.rules = {
         --properties = { tag = awful.util.tagnames[1], switchtotag = true } },
 
     --{ rule = { class = "Chromium" },
-      --properties = { tag = awful.util.tagnames[1], focusable = false, switchtotag = true  } },
+      --properties = { tag = awful.util.tagnames[1], switchtotag = true  } },
 
     --{ rule = { class = "Opera" },
       --properties = { tag = awful.util.tagnames[1],switchtotag = true  } },
 
     -- Set applications to always map on the tag 2 on any screen.
-    --{ rule = { class = "Kodi" },
+    --{ rule = { class = "kodi" },
         --properties = { tag = awful.util.tagnames[2],switchtotag = true  } },
 
     --{ rule = { class = editorgui },
@@ -959,30 +956,30 @@ awful.rules.rules = {
          --  properties = { tag = awful.util.tagnames[2], switchtotag = true  } },
 
     -- Set applications to always map on the tag 3 on any screen.
-    { rule = { class = "Kodi" },
-        properties = { tag = awful.util.tagnames[3], focusable = false, switchtotag = true  } },
+    { rule = { class = "kodi" },
+        properties = { tag = awful.util.tagnames[3],  switchtotag = true  } },
 
     --{ rule = { class = "plexmediaplayer" },
-        --properties = { tag = awful.util.tagnames[3], focusable = false, switchtotag = true } },
+        --properties = { tag = awful.util.tagnames[3], switchtotag = true } },
 
     -- Set applications to always map on the tag 4 on any screen.
     { rule = { class = "plexmediaplayer" },
-        properties = { tag = awful.util.tagnames[4], focusable = false, requests_no_titlebar, switchtotag = true } },
+        properties = { tag = awful.util.tagnames[4], requests_no_titlebar, switchtotag = true } },
 
     --{ rule = { class = "stremio" },
-        --properties = { tag = awful.util.tagnames[4], focusable = false, switchtotag = true  } },
+        --properties = { tag = awful.util.tagnames[4], switchtotag = true  } },
 
     -- Set applications to always map on the tag 5 on any screen.
     { rule = { class = "stremio" },
-        properties = { tag = awful.util.tagnames[5], focusable = false, switchtotag = true  } },
+        properties = { tag = awful.util.tagnames[5], switchtotag = true  } },
     --{ rule = { class = "retroarch" },
-        --properties = { tag = awful.util.tagnames[5] , focusable = false, switchtotag = true  } },
+        --properties = { tag = awful.util.tagnames[5] , switchtotag = true  } },
 
     -- Set applications to always map on the tag 6 on any screen.
     --{ rule = { class = "stremio" },
-        --properties = { tag = awful.util.tagnames[6], focusable = false, switchtotag = true  } },
+        --properties = { tag = awful.util.tagnames[6], switchtotag = true  } },
     --{ rule = { class = "retroarch" },
-        --properties = { tag = awful.util.tagnames[6] , focusable = false, switchtotag = true  } },
+        --properties = { tag = awful.util.tagnames[6] , switchtotag = true  } },
     
     --#######################################################################################
     -- Set applications to always map on the tag 1 on screen 1.
@@ -997,13 +994,13 @@ awful.rules.rules = {
         --properties = { screen = 1, tag = awful.util.tagnames[1], switchtotag = true } },
 
     --{ rule = { class = "Chromium" },
-      --properties = { screen = 1, tag = awful.util.tagnames[1], focusable = false, switchtotag = true  } },
+      --properties = { screen = 1, tag = awful.util.tagnames[1], switchtotag = true  } },
 
     --{ rule = { class = "Opera" },
       --properties = { screen = 1, tag = awful.util.tagnames[1],switchtotag = true  } },
 
     -- Set applications to always map on the tag 2 on screen 1.
-    --{ rule = { class = "Kodi" },
+    --{ rule = { class = "kodi" },
         --properties = { screen = 1, tag = awful.util.tagnames[2],focusable = false, switchtotag = true  } },
 
     --{ rule = { class = editorgui },
@@ -1023,15 +1020,15 @@ awful.rules.rules = {
 
     -- Set applications to always map on the tag 3 on screen 1.
     --{ rule = { class = "stremio" },
-        --properties = { screen = 1, tag = awful.util.tagnames[3], focusable = false, switchtotag = true } },
+        --properties = { screen = 1, tag = awful.util.tagnames[3], switchtotag = true } },
 
     -- Set applications to always map on the tag 4 on screen 1.
     --{ rule = { class = "plexmediaplayer" },
-        --properties = { screen = 1, tag = awful.util.tagnames[4], focusable = false, switchtotag = true  } },
+        --properties = { screen = 1, tag = awful.util.tagnames[4], switchtotag = true  } },
 
     -- Set applications to always map on the tag 5 on screen 1.
     --{ rule = { class = "retroarch" },
-        --properties = { screen = 1, tag = awful.util.tagnames[5] , focusable = false, switchtotag = true  } },
+        --properties = { screen = 1, tag = awful.util.tagnames[5] , switchtotag = true  } },
         
     --#######################################################################################
     -- Set applications to always map on the tag 1 on screen 2.
@@ -1040,20 +1037,20 @@ awful.rules.rules = {
       --properties = { screen = 2, tag = awful.util.tagnames[1], switchtotag = true  } },
 
     --{ rule = { class = browser1 },
-      --properties = { screen = 2, tag = awful.util.tagnames[1], focusable = false, switchtotag = true  } },
+      --properties = { screen = 2, tag = awful.util.tagnames[1], switchtotag = true  } },
 
     --{ rule = { class = "Vivaldi-stable" },
         --properties = { screen = 2, tag = awful.util.tagnames[1], switchtotag = true } },
 
     --{ rule = { class = "Chromium" },
-      --properties = { screen = 2, tag = awful.util.tagnames[1], focusable = false, switchtotag = true  } },
+      --properties = { screen = 2, tag = awful.util.tagnames[1], switchtotag = true  } },
 
     --{ rule = { class = "Opera" },
       --properties = { screen = 2, tag = awful.util.tagnames[1],switchtotag = true  } },
 
     -- Set applications to always map on the tag 2 on screen 2.
-    --{ rule = { class = "Kodi" },
-        --properties = { screen = 2, tag = awful.util.tagnames[2], focusable = false, switchtotag = true  } },
+    --{ rule = { class = "kodi" },
+        --properties = { screen = 2, tag = awful.util.tagnames[2], switchtotag = true  } },
 
     --{ rule = { class = editorgui },
         --properties = { screen = 2, tag = awful.util.tagnames[2], switchtotag = true  } },
@@ -1069,15 +1066,15 @@ awful.rules.rules = {
 
     -- Set applications to always map on the tag 3 on screen 2.
     --{ rule = { class = "stremio" },
-        --properties = { screen = 2, tag = awful.util.tagnames[3], focusable = false, switchtotag = true } },
+        --properties = { screen = 2, tag = awful.util.tagnames[3], switchtotag = true } },
 
     -- Set applications to always map on the tag 4 on screen 2.
     --{ rule = { class = "plexmediaplayer" },
-        --properties = { tag = awful.util.tagnames[4], focusable = false, switchtotag = true  } },
+        --properties = { tag = awful.util.tagnames[4], switchtotag = true  } },
 
     -- Set applications to always map on the tag 5 on screen 2.
     --{ rule = { class = "retroarch" },
-        --properties = { screen = 2, tag = awful.util.tagnames[5] , focusable = false, switchtotag = true  } },
+        --properties = { screen = 2, tag = awful.util.tagnames[5] , switchtotag = true  } },
 
     -- Set applications to be maximized at startup.
     -- find class or role via xprop command
@@ -1098,22 +1095,22 @@ awful.rules.rules = {
           properties = { maximized = true } },
 
     { rule = { class = "kodi" },
-          properties = { maximized = true } },
+          properties = { fullscreen = true } },
           
     { rule = { class = "plexmediaplayer" },
-          properties = { maximized = true } },
+          properties = { fullscreen = true } },
 
     { rule = { class = "stremio" },
-          properties = { maximized = true } },
+          properties = { fullscreen = true } },
 
     { rule = { class = "retroarch" },
-          properties = { maximized = true } },
+          properties = { fullscreen = true } },
 
-    { rule = { class = mediaplayer },
-          properties = { maximized = true } },
+    --{ rule = { class = mediaplayer },
+          --properties = { maximized = true } },
 
-    { rule = { class = "Vlc" },
-          properties = { maximized = true } },
+    --{ rule = { class = "Vlc" },
+          --properties = { maximized = true } },
 
     { rule = { class = "VirtualBox Manager" },
           properties = { maximized = true } },
@@ -1136,11 +1133,6 @@ awful.rules.rules = {
 
     { rule = { class = "Xfce4-settings-manager" },
           properties = { floating = false } },
-
-
-
-
-
 
     -- Floating clients.
     { rule_any = {
@@ -1212,7 +1204,7 @@ end)
 
 -- Add a titlebar if titlebars_enabled is set to true in the rules.
 client.connect_signal("request::titlebars", function(c)
-    awful.titlebar.hide(c)
+    awful.titlebar.hide(c)      --used to toggle title bars with super+t
     -- Custom
     if beautiful.titlebar_fun then
         beautiful.titlebar_fun(c)
