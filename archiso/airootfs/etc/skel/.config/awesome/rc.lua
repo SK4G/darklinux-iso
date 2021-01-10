@@ -123,7 +123,7 @@ local editor            = os.getenv("EDITOR") or "nano"
 local editorgui         = "code"
 local filemanager       = "thunar"
 local mailclient        = "evolution"
-local mediaplayer       = "vlc"
+local mediaplayer       = "mpd"
 local terminal          = "urxvt"
 local virtualmachine    = "virtualbox"
 
@@ -323,8 +323,8 @@ globalkeys = my_table.join(
     -- super + ... function keys
     awful.key({ modkey }, "F1", function () awful.util.spawn( "kodi" ) end,
         {description = "kodi" ,group = "function keys" }),
-    awful.key({ modkey }, "F2", function () awful.util.spawn( "chromium --app=http://yoursports.stream/live?v=espn" ) end,
-        {description = "ESPN", group = "function keys"}),
+    awful.key({ modkey }, "F2", function () awful.util.spawn( "chromium --app=https://www.netflix.com/browse" ) end,
+        {description = "Netflix", group = "function keys"}),
     awful.key({ modkey }, "F3", function () awful.util.spawn( "plexmediaplayer" ) end,
         {description = "plex" , group = "function keys" }),
     awful.key({ modkey }, "F4", function () awful.util.spawn( "xfce4-appfinder" ) end,
@@ -956,22 +956,22 @@ awful.rules.rules = {
          --  properties = { tag = awful.util.tagnames[2], switchtotag = true  } },
 
     -- Set applications to always map on the tag 3 on any screen.
-    { rule = { class = "kodi" },
-        properties = { tag = awful.util.tagnames[3],  switchtotag = true  } },
+    --{ rule = { class = "kodi" },
+        --properties = { tag = awful.util.tagnames[3],  switchtotag = true  } },
 
     --{ rule = { class = "plexmediaplayer" },
         --properties = { tag = awful.util.tagnames[3], switchtotag = true } },
 
     -- Set applications to always map on the tag 4 on any screen.
-    { rule = { class = "plexmediaplayer" },
-        properties = { tag = awful.util.tagnames[4], requests_no_titlebar, switchtotag = true } },
+    --{ rule = { class = "plexmediaplayer" },
+        --properties = { tag = awful.util.tagnames[4], requests_no_titlebar, switchtotag = true } },
 
     --{ rule = { class = "stremio" },
         --properties = { tag = awful.util.tagnames[4], switchtotag = true  } },
 
     -- Set applications to always map on the tag 5 on any screen.
-    { rule = { class = "stremio" },
-        properties = { tag = awful.util.tagnames[5], switchtotag = true  } },
+    --{ rule = { class = "stremio" },
+        --properties = { tag = awful.util.tagnames[5], switchtotag = true  } },
     --{ rule = { class = "retroarch" },
         --properties = { tag = awful.util.tagnames[5] , switchtotag = true  } },
 
@@ -1283,9 +1283,6 @@ awful.spawn.with_shell("feh --bg-fill $HOME/.config/awesome/themes/copland/starw
 --awful.spawn("stremio")
 --awful.spawn("plexmediaplayer")
 --awful.spawn("retroarch")
---awful.spawn("chromium --app=http://yoursports.stream/live?v=espn")
---awful.spawn("chromium --app=http://yoursports.stream/live?v=espn")
---awful.spawn("chromium --app=http://yoursports.stream/live?v=espn")
---awful.spawn("chromium --app=http://yoursports.stream/live?v=espn")
+--awful.spawn("chromium --app=https://www.netflix.com/browse")
 --awful.spawn("mpv")
 --awful.spawn("")
