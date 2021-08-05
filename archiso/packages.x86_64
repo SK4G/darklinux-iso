@@ -258,6 +258,7 @@ system-config-printer
 ###thermal printer support
 #lprint
 #acroread
+#texlive-core
 
 ###tumbler
 tumbler
