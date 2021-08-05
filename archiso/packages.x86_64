@@ -361,7 +361,7 @@ asciinema
 bash-completion
 baobab
 catfish
-cronie
+#cronie
 dconf-editor
 dex
 #discord
@@ -453,7 +453,6 @@ zsh-syntax-highlighting
 #vivaldi-ffmpeg-codecs
 #vivaldi-widevine
 google-chrome
-#visual-studio-code-bin
 
 ###cursors
 #breeze-cursors-lh
@@ -465,6 +464,7 @@ bibata-cursor-theme-bin
 
 ###editors
 code
+#visual-studio-code-bin
 
 ###fonts
 ttf-font-awesome
