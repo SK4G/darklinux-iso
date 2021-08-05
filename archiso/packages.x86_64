@@ -302,6 +302,11 @@ termite
 #variety
 vlc
 
+####btrfs support with autosnapshots
+grub-btrfs
+timeshift
+timeshift-autosnap
+
 ###conky
 jq
 lm_sensors
@@ -324,7 +329,7 @@ ttf-roboto-mono
 ttf-ubuntu-font-family
 
 ###games
-retroarch
+#retroarch
 gamemode
 lib32-gamemode
 
@@ -416,7 +421,7 @@ simple-scan
 #shotwell
 speedtest-cli-git
 #telegram-desktop
-timeshift
+#timeshift
 #tlp
 tree
 #ufw
@@ -448,7 +453,6 @@ zsh-syntax-highlighting
 #vivaldi-widevine
 google-chrome
 #visual-studio-code-bin
-#ms-office-online
 
 ###cursors
 #breeze-cursors-lh
@@ -457,6 +461,9 @@ google-chrome
 bibata-cursor-theme-bin
 #breeze
 #xcursor-vanilla-dmz-aa
+
+###editors
+code
 
 ###fonts
 ttf-font-awesome
@@ -481,6 +488,10 @@ surfn-icons-git
 ###media
 #plex-media-player
 
+###office
+#ms-office-online
+wps-office
+
 ###tools
 mkinitcpio-openswap
 
@@ -488,7 +499,6 @@ mkinitcpio-openswap
 #alacritty
 appstream
 archiso
-code
 conky-lua-archers
 downgrade
 #font-manager-git

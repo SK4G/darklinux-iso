@@ -1,10 +1,16 @@
 #!/bin/bash
 #set -e
 
-#[darklinux-repo]
-#SigLevel = Optional TrustedOnly
-#Server  = https://sk4g.github.io/$repo/$arch
-
+echo
+echo "################################################################## "
+tput setaf 2
+echo
+echo "Deleting old ArcoLinux-iso folder if one exists"
+echo
+tput sgr0
+echo "################################################################## "
+echo
+rm -rf $HOME/arcolinuxl-iso/
 
 echo
 echo "################################################################## "
@@ -24,8 +30,9 @@ echo $'\n\n[darklinux-repo]\nSigLevel = Optional TrustedOnly\nServer  = https://
 cd $HOME/arcolinuxl-iso/archiso/airootfs/etc/
 echo $'\n\n[darklinux-repo]\nSigLevel = Optional TrustedOnly\nServer  = https://sk4g.github.io/$repo/x86_64' | sudo tee -a pacman.conf
 
-#change sddm login theme
+#change sddm login and theme
 sed -i 's/arcolinux-sugar-candy/arcolinux-slice/g' $HOME/arcolinuxl-iso/archiso/airootfs/etc/sddm.conf
+sed -i 's/xfce/awesome/g' $HOME/arcolinuxl-iso/archiso/airootfs/etc/sddm.conf
 
 sed -i 's/ArcoLinuxL/Darklinux/g' $HOME/arcolinuxl-iso/archiso/airootfs/etc/hostname
 
@@ -58,8 +65,8 @@ tput sgr0
 echo "################################################################## "
 echo
 
-# rm -f $HOME/arcolinuxl-iso/archiso/packages.x86_64
-cp -rf $HOME/darklinux-iso/archiso/ $HOME/arcolinuxl-iso/archiso/
+rm -f $HOME/arcolinuxl-iso/archiso/packages.x86_64
+cp -rf $HOME/darklinux-iso/archiso/packages.x86_64 $HOME/arcolinuxl-iso/archiso/
 
 
 echo
