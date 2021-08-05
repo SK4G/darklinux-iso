@@ -113,7 +113,7 @@ usb_modeswitch
 usbmuxd
 usbutils
 vim
-virtualbox-guest-utils-nox
+#virtualbox-guest-utils-nox
 vpnc
 wireless-regdb
 wireless_tools
@@ -181,9 +181,9 @@ base
 base-devel
 
 ###virtual box or vmware
-open-vm-tools
+#open-vm-tools
 #virtualbox-guest-modules-arch
-#virtualbox-guest-utils
+virtualbox-guest-utils
 
 ###packages for dual boot
 os-prober
@@ -257,6 +257,7 @@ system-config-printer
 
 ###thermal printer support
 #lprint
+#acroread
 
 ###tumbler
 tumbler
@@ -380,7 +381,7 @@ gnome-screenshot
 gnome-software
 gnome-software-packagekit-plugin
 gparted
-gpick
+#gpick
 #gtop
 hardinfo
 #hddtemp
@@ -732,7 +733,7 @@ arcolinux-welcome-app-git
 #arcolinuxd-welcome-app-git
 #arcolinux-welcome-app-dev-git
 #arcolinux-welcome-app-deepin-git
-arcolinux-calamares-tool-git
+#arcolinux-calamares-tool-git
 #arcolinux-calamares-tool-dev-git
 
 ###########################################################################
@@ -762,7 +763,7 @@ adobe-source-han-sans-cn-fonts
 #                                ARCOLINUX CONFIG CALAMARES
 ###########################################################################
 
-#arcob-calamares-config-awesome-git
+arcob-calamares-config-awesome-git
 #arcob-calamares-config-bspwm-git
 #arcob-calamares-config-budgie-git
 #arcob-calamares-config-cinnamon-git
