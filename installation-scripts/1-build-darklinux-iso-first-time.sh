@@ -84,3 +84,4 @@ chmod +x *.sh
 # chmod +x 30-build-the-iso-the-first-time.sh
 # chmod +x 40-build-the-iso-local-again.sh
 sh 30-build-the-iso-the-first-time.sh
+# sh 40-build-the-iso-local-again.sh
