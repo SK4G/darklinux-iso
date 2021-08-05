@@ -55,6 +55,10 @@ sed -i 's/arcolinuxl/darklinux/g' $HOME/arcolinuxl-iso/installation-scripts/40-b
 sed -i 's/ArcoLinuxL/Darklinux/g' $HOME/arcolinuxl-iso/installation-scripts/40-build-the-iso-local-again.sh
 sed -i 's/xfce/awesome/g' $HOME/arcolinuxl-iso/installation-scripts/40-build-the-iso-local-again.sh
 
+#change iso label
+sed -i 's/arcolinuxl/darklinux/g' $HOME//arcolinuxl-iso/archiso/profiledef.sh
+sed -i 's/ArcoLinux/DarkLinux/g' $HOME//arcolinuxl-iso/archiso/profiledef.sh
+
 echo
 echo "################################################################## "
 tput setaf 2
