@@ -258,6 +258,7 @@ system-config-printer
 ###thermal printer support
 #lprint
 #acroread
+evince
 #texlive-core
 
 ###tumbler
@@ -492,7 +493,7 @@ surfn-icons-git
 
 ###office
 #ms-office-online
-wps-office
+#wps-office
 
 ###tools
 mkinitcpio-openswap
