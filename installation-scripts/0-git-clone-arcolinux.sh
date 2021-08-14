@@ -61,5 +61,5 @@ sed -i 's/arcolinuxl/darklinux/g' $HOME//arcolinuxl-iso/archiso/profiledef.sh
 sed -i 's/ArcoLinux/DarkLinux/g' $HOME//arcolinuxl-iso/archiso/profiledef.sh
 
 
-mv $HOME/arcolinuxs-iso/archiso/packages.x86_64 $HOME/arcolinuxl-iso/archiso/arcoS-packages.x86_64
-mv $HOME/darklinux-iso/archiso//packages.x86_64 $HOME/arcolinuxl-iso/archiso/darklinux-packages.x86_64
+cp $HOME/arcolinuxs-iso/archiso/packages.x86_64 $HOME/arcolinuxl-iso/archiso/arcoS-packages.x86_64
+cp $HOME/darklinux-iso/archiso//packages.x86_64 $HOME/arcolinuxl-iso/archiso/darklinux-packages.x86_64
