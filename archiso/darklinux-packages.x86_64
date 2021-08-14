@@ -347,7 +347,6 @@ lib32-gamemode
 #kodi-addons
 audacious
 easytag
-kdenlive
 obs-studio
 zoom
 
@@ -380,20 +379,20 @@ gksu
 #glances
 gnome-disk-utility
 gnome-keyring
-#gnome-screenshot
-#gnome-software
-#gnome-software-packagekit-plugin
+gnome-screenshot
+gnome-software
+gnome-software-packagekit-plugin
 gparted
 #gpick
 #gtop
 hardinfo
-hddtemp
+#hddtemp
 htop
-hunspell
+#hunspell
 hunspell-en_US
 hw-probe
-hyphen
-hyphen-en
+#hyphen
+#hyphen-en
 grsync
 intltool
 iw
@@ -512,6 +511,7 @@ grub-customizer
 hardcode-fixer-git
 inxi
 mintstick-git
+ncdu
 neofetch
 #numix-gtk-theme-git
 pamac-all
@@ -557,7 +557,6 @@ arcolinux-conky-collection-git
 #arcolinux-conky-collection-plasma-git
 #arcolinux-cron-git
 #arcolinux-docs-git
-#arcolinux-desktop-trasher-git
 #arcolinux-faces-git
 arcolinux-fonts-git
 #arcolinux-geany-git
@@ -827,9 +826,9 @@ picom
 #                         GENERAL DESKTOP RELATED
 ###########################################################################
 
-mugshot
-menulibre
-#volumeicon
+#mugshot
+#menulibre
+volumeicon
 
 ###########################################################################
 #                         ARCOLINUX ISO SPECIFIC
@@ -862,7 +861,7 @@ menulibre
 #openbox-themes-pambudi-git
 
 ###lx-applications
-#lxappearance
+lxappearance
 #lxappearance-gtk3
 #lxappearance-obconf
 #lxappearance-obconf-gtk3
@@ -875,14 +874,14 @@ menulibre
 ### xfce4 group content
 # https://www.archlinux.org/groups/x86_64/xfce4/
 exo
-garcon
+#garcon
 thunar
 thunar-volman
 tumbler
 xfce4-appfinder
 #xfce4-panel
 xfce4-power-manager
-xfce4-session
+#xfce4-session
 xfce4-settings
 xfce4-terminal
 xfconf
