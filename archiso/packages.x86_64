@@ -256,9 +256,9 @@ splix
 system-config-printer
 
 ###thermal printer tools
-#lprint
 #acroread
 evince
+#lprint
 #texlive-core
 
 ###tumbler
