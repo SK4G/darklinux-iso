@@ -333,8 +333,9 @@ ttf-ubuntu-font-family
 
 ###games
 #retroarch
-gamemode
-lib32-gamemode
+#gamemode
+#lib32-gamemode
+#proton-ge-custom-bin
 
 ###icons
 #arc-icon-theme
@@ -347,6 +348,7 @@ lib32-gamemode
 #kodi-addons
 audacious
 easytag
+kdenlive
 obs-studio
 zoom
 
@@ -361,7 +363,7 @@ kvantum-qt5
 arandr
 asciinema
 bash-completion
-baobab
+#baobab
 catfish
 #cronie
 dconf-editor
@@ -379,9 +381,9 @@ gksu
 #glances
 gnome-disk-utility
 gnome-keyring
-gnome-screenshot
-gnome-software
-gnome-software-packagekit-plugin
+#gnome-screenshot
+#gnome-software
+#gnome-software-packagekit-plugin
 gparted
 #gpick
 #gtop

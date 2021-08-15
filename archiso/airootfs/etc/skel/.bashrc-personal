@@ -1,4 +1,4 @@
-alias yta-mp3="youtube-dl --extract-audio --audio-quality 0 --audio-format mp3 -o '$HOME/Music/%(playlist_title)s/%(title)s.%(ext)s' "
-alias ytv-best="youtube-dl -f bestvideo+bestaudio -o '$HOME/Videos/%(title)s.%(ext)s' "
+alias yta="youtube-dl --extract-audio --audio-quality 0 --audio-format mp3 -o '$HOME/Music/%(playlist_title)s/%(title)s.%(ext)s' "
+alias ytv="youtube-dl -f bestvideo+bestaudio -o '$HOME/Videos/%(title)s.%(ext)s' "
 alias rc.lua="code $HOME/.config/awesome/rc.lua"
 alias update-noconfirm='sudo pacman -Syyu --noconfirm'

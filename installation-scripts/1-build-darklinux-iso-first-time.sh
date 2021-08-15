@@ -72,6 +72,7 @@ echo
 rm -f $HOME/arcolinuxl-iso/archiso/packages.x86_64
 cp -rf $HOME/darklinux-iso/archiso/packages.x86_64 $HOME/arcolinuxl-iso/archiso/
 
+#cp $HOME/darklinux-iso/archiso/airootfs/etc/skel/.bashrc-personal $buildFolder/archiso/airootfs/etc/skel/.bashrc-personal
 
 echo
 echo "################################################################## "
