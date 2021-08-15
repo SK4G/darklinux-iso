@@ -104,7 +104,7 @@ syslinux
 #systemd-resolvconf
 tcpdump
 terminus-font
-termite-terminfo
+#termite-terminfo
 testdisk
 tmux
 tpm2-tss
@@ -501,7 +501,7 @@ surfn-icons-git
 mkinitcpio-openswap
 
 ###utilities-repo
-#alacritty
+alacritty
 appstream
 archiso
 conky-lua-archers
@@ -550,7 +550,7 @@ arcolinux-meta-steam
 #                           ARCOLINUX FOLDER
 ###########################################################################
 
-#arcolinux-alacritty-git
+arcolinux-alacritty-git
 #arcolinux-arc-kde
 #arcolinux-arc-themes-git
 arcolinux-bin-git
@@ -610,7 +610,7 @@ arcolinux-system-config-git
 #arcolinux-system-config-dev-git
 #arcolinuxd-system-config-git
 arcolinux-systemd-services-git
-arcolinux-termite-themes-git
+#arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
 arcolinux-tweak-tool-git
@@ -695,8 +695,8 @@ arcolinux-config-all-desktops-git
 #                           ARCOLINUX DCONF FOLDER
 ###########################################################################
 
-#arcolinux-dconf-all-desktops-git
-arcolinux-awesome-dconf-git
+arcolinux-dconf-all-desktops-git
+#arcolinux-awesome-dconf-git
 #arcolinux-bspwm-dconf-git
 #arcolinux-budgie-dconf-git
 #arcolinux-cinnamon-dconf-git
@@ -817,7 +817,7 @@ accountsservice
 sddm
 arcolinux-sddm-slice-git
 #arcolinux-sddm-sugar-candy-git
-sddm-config-editor-git
+#sddm-config-editor-git
 
 ###########################################################################
 #                         PICOM OR COMPTON
