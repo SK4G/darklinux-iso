@@ -809,7 +809,7 @@ arcob-calamares-config-awesome-git
 #arco-calamares-config-xs-git
 #arco-calamares-config-xs-lts-git
 #arco-calamares-config-xl-next-git
-arcod-calamares-config-git
+#arcod-calamares-config-git
 #arcod-calamares-config-git-git
 #arcod-calamares-config-comp-git
 #arcod-calamares-config-dev-git
