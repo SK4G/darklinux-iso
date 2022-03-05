@@ -11,7 +11,7 @@ arch-install-scripts
 base
 bind-tools
 #brltty
-#broadcom-wl-dkms
+broadcom-wl-dkms
 btrfs-progs
 clonezilla
 #cloud-init
@@ -132,7 +132,7 @@ dnsutils
 linux-headers
 logrotate
 ntp
-#r8168-dkms
+r8168-dkms
 upd72020x-fw
 wd719x-firmware
 wget
@@ -156,7 +156,7 @@ xf86-video-amdgpu
 xf86-video-ati
 #xf86-video-dummy
 xf86-video-fbdev
-#xf86-video-intel
+xf86-video-intel
 xf86-video-nouveau
 xf86-video-openchrome
 #xf86-video-qxl
@@ -173,13 +173,13 @@ mesa
 #nvidia
 #nvidia-utils
 #nvidia-settings
-#libva-intel-driver
+libva-intel-driver
 #libva-vdpau-driver
 mesa-utils
 #mesa-vdpau
 #opencl-mesa
 #primus
-#vulkan-intel
+vulkan-intel
 #vulkan-radeon
 
 ###base and base-devel
@@ -986,8 +986,8 @@ base16-alacritty-git
 time
 #pace
 #sparklines-git
-#fish
-#arcolinux-fish-git
+fish
+arcolinux-fish-git
 ###########################################################################
 #                                ISO SPECIFIC
 ###########################################################################

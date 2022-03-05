@@ -57,7 +57,7 @@ sed -i 's/xfce/awesome/g' $HOME/arcolinuxl-iso/installation-scripts/40-build-the
 
 #change iso label
 sed -i 's/arcolinuxl/darklinux/g' $HOME/arcolinuxl-iso/archiso/profiledef.sh
-sed -i 's/ArcoLinux/DarkLinux/g' $HOME/arcolinuxl-iso/archiso/profiledef.sh
+# sed -i 's/ArcoLinux/DarkLinux/g' $HOME/arcolinuxl-iso/archiso/profiledef.sh
 
 echo
 echo "################################################################## "
@@ -73,6 +73,7 @@ rm -f $HOME/arcolinuxl-iso/archiso/packages.x86_64
 cp -rf $HOME/darklinux-iso/archiso/packages.x86_64 $HOME/arcolinuxl-iso/archiso/
 
 #cp $HOME/darklinux-iso/archiso/airootfs/etc/skel/.bashrc-personal $buildFolder/archiso/airootfs/etc/skel/.bashrc-personal
+cp $HOME/darklinux-iso/archiso/airootfs/etc/skel/.bashrc-personal $buildFolder/archiso/airootfs/etc/skel/.bashrc-personalcp $HOME/darklinux-iso/archiso/airootfs/etc/skel/.bashrc-personal $buildFolder/archiso/airootfs/etc/skel/.bashrc-personal
 
 echo
 echo "################################################################## "

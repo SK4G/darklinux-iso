@@ -11,7 +11,7 @@ arch-install-scripts
 base
 bind-tools
 #brltty
-#broadcom-wl-dkms
+broadcom-wl-dkms
 btrfs-progs
 clonezilla
 #cloud-init
@@ -132,7 +132,7 @@ dnsutils
 linux-headers
 logrotate
 ntp
-#r8168-dkms
+r8168-dkms
 upd72020x-fw
 wd719x-firmware
 wget
