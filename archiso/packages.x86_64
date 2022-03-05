@@ -174,13 +174,14 @@ mesa
 #nvidia-utils
 #nvidia-settings
 #libva-intel-driver
+libva-mesa-driver
 #libva-vdpau-driver
 mesa-utils
 #mesa-vdpau
 #opencl-mesa
 #primus
 #vulkan-intel
-#vulkan-radeon
+vulkan-radeon
 
 ###base and base-devel
 base
