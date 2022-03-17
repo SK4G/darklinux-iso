@@ -1,0 +1,23 @@
+#####################################################################
+##                            PACKAGES AVAILABLE
+#####################################################################
+###base
+coreutils
+initramfs
+kmod
+crda
+linux-firmware
+bc
+cpio
+git
+graphviz
+imagemagick
+kmod
+libelf
+pahole
+perl
+python-sphinx
+python-sphinx_rtd_theme
+tar
+xmlto
+xz
