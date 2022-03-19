@@ -1,0 +1,28 @@
+[preferences/file]
+add-last-end-of-line=true
+session-restore='unsaved-documents'
+
+[preferences/view]
+auto-indent=true
+color-scheme='monokai-sublime'
+font-name='Monospace 12'
+highlight-current-line=false
+indent-on-tab=true
+indent-width=-1
+insert-spaces=false
+match-braces=false
+right-margin-position=80
+show-line-endings=false
+show-line-marks=false
+show-line-numbers=true
+show-right-margin=false
+show-whitespace=false
+smart-home-end='disabled'
+tab-width=uint32 4
+use-default-monospace-font=false
+word-wrap=false
+
+[preferences/window]
+menubar-visible=true
+toolbar-icon-size='small-toolbar'
+toolbar-visible=false
