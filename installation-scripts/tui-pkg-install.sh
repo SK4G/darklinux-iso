@@ -19,6 +19,7 @@ echo "################################################################"
 echo "####              installing TUI utilities               ######"
 echo "################################################################"
 sudo pacman -S xplr --noconfirm --needed    #terminal explorer
+yay -S --noconfirm --needed sysz            #sytem services manager
 yay -S --noconfirm --needed fuzzy-pkg-finder   #pamac terminal client
 #yay -S --noconfirm --needed fzf-open    #search and open. edit default openers $HOME/.config/fzf-open/lopen.sh
 #yay -S --noconfirm --faint-git          #file exploer
