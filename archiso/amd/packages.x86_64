@@ -355,7 +355,8 @@ ttf-ubuntu-font-family
 #kodi
 #kodi-x11
 #kodi-addons
-audacious
+#audacious
+vvave
 easytag
 kdenlive
 obs-studio
