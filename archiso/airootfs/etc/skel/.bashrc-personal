@@ -1,13 +1,18 @@
 export PATH="/usr/bin/gcc:$PATH"
-alias nbp="nano ~/.bashrc-personal"
+alias nbp="mousepad ~/.bashrc-personal"
+alias timeshift-settings="sudo nano /etc/timeshift-autosnap.conf"
 alias b-rc-update="source .bashrc && rsync .bashrc-personal $HOME/darklinux-iso/archiso/airootfs/etc/skel/"
 alias makepkg-v2="makepkg && mv *.pkg.tar.zst $HOME/darklinux/darklinux-repo/x86_64/ && rm -rf src pkg darklinux-* && cd $HOME/darklinux/darklinux-repo/ && sh repo-scan-git-v3.sh"
 #alias yta="youtube-dl --extract-audio --audio-quality 0 --audio-format m4a -o '$HOME/Music/%(playlist_title)s/%(title)s.%(ext)s' "
 alias yta="youtube-dl -f bestaudio[ext=m4a] -o '$HOME/Music/%(playlist_title)s/%(title)s.%(ext)s' "
 alias ytv="youtube-dl -f bestvideo+bestaudio -o '$HOME/Videos/%(title)s.%(ext)s' "
-alias rc.lua="code $HOME/.config/awesome/rc.lua"
+alias rc.lua="mousepad $HOME/.config/awesome/rc.lua"
 alias lua-update="rsync -r -t -v --progress -s /etc/skel/.config/awesome $HOME/.config/awesome/"
 alias u-nc="sudo pacman -Syyu --noconfirm"
+alias fix-arch-keys="sudo pacman -S archlinux-keyring &&
+sudo pacman-key --init &&
+sudo pacman-key --populate archlinux &&
+sudo pacman-key --populate arcolinux"
 alias kodi-backup="cp -rf $HOME/.kodi $HOME/kodi-backups/.kodi-$(date +%Y.%m.%d)"
 alias kodi-restore="cp -rf $HOME/.kodi-backup/* $HOME/.kodi"
 alias empty-trash="rm -rf $HOME/.local/share/Trash/files/* && rm -rf $HOME/.local/share/Trash/info/* && rm -rf trash:///" 
@@ -18,6 +23,7 @@ alias phone-rsync="rsync -e 'ssh -p 8022' -av /home/luiz/rsync/ root@192.168.1.8
 alias music-rsync="rsync -e 'ssh -p 8022' -av /home/luiz/Music/ root@192.168.1.85:/sdcard/Music/"
 alias laptop-rsync="rsync -av /home/luiz/TX-State/ luiz@192.168.1.71:/home/luiz/TX-State/"
 alias laptop-idearsync="rsync -av /home/luiz/IdeaProjects/ luiz@192.168.1.71:/home/luiz/IdeaProjects/"
+alias laptop-awesomesync="rsync -av /$HOME/.config/awesome/rc.lua luiz@192.168.1.71:/home/luiz/.config/awesome/rc.lua"
 alias laptop-bashrc="rsync -av /home/luiz/.bashrc-personal luiz@192.168.1.71:/home/luiz/"
 alias tx-rsync="rsync -av /home/luiz/TX-State/ luiz@192.168.1.60:/home/luiz/TX-State/"
 alias ryzen-rsync="rsync -av /home/luiz/rsync/ luiz@192.168.1.60:/home/luiz/rsync/"
@@ -25,3 +31,4 @@ alias duet-tsync="rsync -e 'ssh -p 1122' -av /home/luiz/TX-State/ luiz@192.168.1
 alias duet-rsync="rsync -e 'ssh -p 1122' -av /home/luiz/rsync/ luiz@192.168.1.72:'/mnt/chromeos/MyFiles/rsync'"
 alias brc-sync="rsync -av /home/luiz/.bashrc-personal luiz@192.168.1.71:/home/luiz/.bashrc-personal"
 alias start-sshd="sudo systemctl start sshd.service"
+alias duplicate-display="xrandr --output HDMI-A-0  --same-as DisplayPort-0"

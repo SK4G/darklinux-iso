@@ -66,5 +66,5 @@ mv $HOME/arcolinuxl-iso/archiso/packages.x86_64 $HOME/arcolinuxl-iso/archiso/pac
 cp $HOME/darklinux-iso/archiso/packages.x86_64 $HOME/arcolinuxl-iso/archiso/packages.x86_64
 
 #cp bashrc-personal
-sed -i '170 i rsync -av $HOME/darklinux-iso/archiso/airootfs/etc/skel/.bashrc-personal $HOME/arcolinuxl-iso/archiso/airootfs/etc/skel/.bashrc-personal\n' $HOME/arcolinuxl-iso/installation-scripts/30-build-the-iso-the-first-time.sh
-sed -i '170 i rsync -av $HOME/darklinux-iso/archiso/airootfs/etc/skel/.bashrc-personal $HOME/arcolinuxl-iso/archiso/airootfs/etc/skel/.bashrc-personal\n' $HOME/arcolinuxl-iso/installation-scripts/40-build-the-iso-local-again.sh
+sed -i '175 i rsync -av $HOME/darklinux-iso/archiso/airootfs/etc/skel/.bashrc-personal $HOME/arcolinuxl-iso/archiso/airootfs/etc/skel/.bashrc-personal\n' $HOME/arcolinuxl-iso/installation-scripts/30-build-the-iso-the-first-time.sh
+sed -i '175 i rsync -av $HOME/darklinux-iso/archiso/airootfs/etc/skel/.bashrc-personal $HOME/arcolinuxl-iso/archiso/airootfs/etc/skel/.bashrc-personal\n' $HOME/arcolinuxl-iso/installation-scripts/40-build-the-iso-local-again.sh
