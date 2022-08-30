@@ -1,0 +1,25 @@
+# picom-restart@.service or  picom-restart.service
+# For all users, copy to /etc/systemd/user/picom-restart@.service
+# For one user copy to ~/.config/systemd/user/picom-restart.service
+# Stop picom when laptop goes to sleep (ie. suspend to RAM), and start it when it's woken up (ie. resume)
+# This is to avoid a black screen when resuming (and a hard reboot), as somehow Lenovo AMD Ryzen 2500 U don't seem to handle this properly
+# More info here https://archived.forum.manjaro.org/t/lenovo-laptop-wont-resume-after-sleep/105233/20
+
+[Unit]
+Description=Picom Suspend/Resume Service
+Before=sleep.target
+StopWhenUnneeded=yes
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+KillMode=none
+#KillMode=mixed
+#RestartKillSignal=SIGUSR1
+KillSignal=SIGUSR1
+Environment=DISPLAY=:0
+ExecStart=killall picom
+ExecStop=sh -c 'DISPLAY=:0 picom'
+
+[Install]
+WantedBy=sleep.target

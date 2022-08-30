@@ -438,7 +438,7 @@ mlocate
 oh-my-zsh-git
 p7zip
 pkgfile
-plank
+#plank
 playerctl
 polkit
 polkit-gnome
@@ -475,7 +475,7 @@ xdo
 xdotool
 xdg-desktop-portal-gtk
 #yt-dlp
-#youtube-dl
+youtube-dl
 zenity
 zsh
 zsh-completions
@@ -588,7 +588,6 @@ yay-bin
 
 arcolinux-alacritty-git
 #arcolinux-arc-kde
-arcolinux-arc-themes-2021-git
 arcolinux-bin-git
 #arcolinux-candy-beauty-git
 #arcolinux-common-git

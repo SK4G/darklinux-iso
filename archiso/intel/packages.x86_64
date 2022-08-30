@@ -9,19 +9,20 @@ arch-install-scripts
 #archinstall
 #b43-fwcutter
 base
-bind-tools
+bind
 #brltty
-broadcom-wl-dkms
+#broadcom-wl-dkms
 btrfs-progs
 clonezilla
 #cloud-init
-crda
+#crda
 cryptsetup
 #darkhttpd
 ddrescue
 dhclient
 #dhcpcd
 diffutils
+dmidecode
 dmraid
 dnsmasq
 dosfstools
@@ -41,6 +42,7 @@ gptfdisk
 #grml-zsh-config
 grub
 hdparm
+hyperv
 intel-ucode
 ipw2100-fw
 ipw2200-fw
@@ -80,6 +82,8 @@ nilfs-utils
 #nmap
 ntfs-3g
 nvme-cli
+open-iscsi
+#open-vm-tools
 openconnect
 openssh
 openvpn
@@ -132,7 +136,6 @@ dnsutils
 linux-headers
 logrotate
 ntp
-r8168-dkms
 upd72020x-fw
 wd719x-firmware
 wget
@@ -141,27 +144,23 @@ wget
 xorg-server
 xorg-apps
 xorg-xinit
-#xterm
 
 ###video
-#xorg-drivers
-#xorg-drivers includes
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
 #xf86-input-synaptics
-xf86-input-vmmouse
+#xf86-input-vmmouse
 xf86-input-void
 xf86-video-amdgpu
 xf86-video-ati
-#xf86-video-dummy
 xf86-video-fbdev
 xf86-video-intel
 xf86-video-nouveau
 xf86-video-openchrome
 #xf86-video-qxl
 xf86-video-vesa
-xf86-video-vmware
+#xf86-video-vmware
 #xf86-video-voodoo
 #xf86-video-sisusb
 mesa
@@ -174,6 +173,7 @@ mesa
 #nvidia-utils
 #nvidia-settings
 libva-intel-driver
+#libva-mesa-driver
 #libva-vdpau-driver
 mesa-utils
 #mesa-vdpau
@@ -186,12 +186,10 @@ vulkan-intel
 base
 base-devel
 
-###virtual box or vmware
-#open-vm-tools
-virtualbox
-virtualbox-host-modules-arch
+###virtual box or virt-manager
 #virtualbox-guest-modules-arch
-virtualbox-guest-utils
+#virtualbox-guest-utils
+#virt-manager
 
 ###packages for dual boot
 os-prober
@@ -212,16 +210,32 @@ gst-plugins-ugly
 gstreamer
 gstreamer-vaapi
 libdvdcss
-pulseaudio
-pulseaudio-alsa
 pavucontrol
+
+###pipewire
+pipewire
+lib32-pipewire
+wireplumber
+pipewire-alsa
+pipewire-jack
+lib32-pipewire-jack
+pipewire-zeroconf
+pipewire-pulse
+gnome-bluetooth
+blueberry
+
+###pulseaudio
+#pulseaudio
+#pulseaudio-alsa
+#pulseaudio-bluetooth
+#pulseaudio-equalizer-ladspa
+#xfce4-pulseaudio-plugin
 
 ###bluetooth
 blueberry
 bluez
 bluez-libs
 bluez-utils
-pulseaudio-bluetooth
 
 ###network
 avahi
@@ -259,6 +273,7 @@ gsfonts
 gtk3-print-backends
 gutenprint
 libcups
+libxcrypt-compat
 #hplip
 splix
 system-config-printer
@@ -267,7 +282,8 @@ system-config-printer
 #acroread
 evince
 #lprint
-#texlive-core
+texlive-core
+pdftk
 
 ###tumbler
 tumbler
@@ -277,6 +293,10 @@ libgsf
 libopenraw
 poppler-glib
 poppler-qt5
+
+###android
+android-sdk-platform-tools
+android-tools
 
 #########################################################################
 #                  SOFTWARE FROM ARCH LINUX REPOSITORIES
@@ -307,7 +327,7 @@ meld
 numlockx
 #pragha
 #qbittorrent
-scrot
+#scrot
 simplescreenrecorder
 termite
 #variety
@@ -354,17 +374,19 @@ ttf-ubuntu-font-family
 #kodi
 #kodi-x11
 #kodi-addons
-audacious
+#audacious
 easytag
 kdenlive
 obs-studio
+vvave
 zoom
 
 ###themes
 #adapta-gtk-theme
 arc-gtk-theme
 arc-darkest-theme-git
-kvantum-qt5
+kvantum
+#kvantum-qt5
 #openbox-arc-git
 
 ###utilities
@@ -380,7 +402,7 @@ dex
 #dmidecode
 duf-bin
 edid-decode-git
-#evince
+evince
 expac
 file-roller
 #filezilla
@@ -415,7 +437,7 @@ mlocate
 oh-my-zsh-git
 p7zip
 pkgfile
-plank
+#plank
 playerctl
 polkit
 polkit-gnome
@@ -452,7 +474,7 @@ xdo
 xdotool
 xdg-desktop-portal-gtk
 #yt-dlp
-#youtube-dl
+youtube-dl
 zenity
 zsh
 zsh-completions
@@ -528,11 +550,10 @@ mintstick-git
 ncdu
 neofetch
 #numix-gtk-theme-git
-pamac-all
+arcolinux-pamac-all
 #pamac-aur
 paru-bin
 #peek
-pulseaudio-equalizer-ladspa
 #pyakm
 python-pyparted
 #python-pywal
@@ -566,7 +587,6 @@ yay-bin
 
 arcolinux-alacritty-git
 #arcolinux-arc-kde
-arcolinux-arc-themes-2021-git
 arcolinux-bin-git
 #arcolinux-candy-beauty-git
 #arcolinux-common-git
@@ -590,17 +610,16 @@ arcolinux-keyring
 arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
 #arcolinux-kvantum-plasma-git
-arcolinux-kvantum-theme-arc-git
 arcolinux-local-applications-git
 arcolinux-local-applications-all-hide-git
 #arcolinux-local-applications-plasma-hide-git
 arcolinux-local-xfce4-git
 #arcolinux-logo-git
-#arcolinux-logout-git
-#arcolinux-logout-themes-git
+archlinux-logout-git
+#archlinux-logout-themes-git
 #arcolinux-lxqt-applications-add-git
 #arcolinux-lxqt-applications-hide-git
-arcolinux-meta-logout
+#arcolinux-meta-logout
 arcolinux-mirrorlist-git
 arcolinux-neofetch-git
 #arcolinux-nitrogen-git
@@ -630,10 +649,10 @@ arcolinux-systemd-services-git
 #arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
-arcolinux-tweak-tool-git
+archlinux-tweak-tool-git
 #arcolinux-variety-git
 #arcolinux-variety-autostart-git
-arcolinux-volumeicon-git
+#arcolinux-volumeicon-git
 arcolinux-wallpapers-git
 #arcolinux-wallpapers-dual-git
 #arcolinux-xfce-panel-profiles-git
@@ -722,7 +741,7 @@ arcolinux-config-all-desktops-git
 #                           ARCOLINUX DCONF FOLDER
 ###########################################################################
 
-arcolinux-dconf-all-desktops-git
+#arcolinux-dconf-all-desktops-git
 #arcolinux-awesome-dconf-git
 #arcolinux-berry-dconf-git
 #arcolinux-bspwm-dconf-git
@@ -779,6 +798,7 @@ arcolinux-welcome-app-git
 ###########################################################################
 
 ckbcomp
+xkeyboard-config
 upower
 kcoreaddons
 kconfig
@@ -853,7 +873,7 @@ accountsservice
 
 ###sddm
 sddm
-arcolinux-sddm-slice-git
+#arcolinux-sddm-slice-git
 #arcolinux-sddm-sugar-candy-git
 arcolinux-sddm-simplicity-git
 #sddm-config-editor-git
@@ -933,7 +953,7 @@ xfwm4
 
 ### xfce4-goodies group content
 # https://www.archlinux.org/groups/x86_64/xfce4-goodies/
-#mousepad
+mousepad
 #orage
 #parole
 ristretto
@@ -957,7 +977,7 @@ xfce4-clipman-plugin
 #xfce4-netload-plugin
 #xfce4-notes-plugin
 xfce4-notifyd
-xfce4-pulseaudio-plugin
+#xfce4-pulseaudio-plugin
 #xfce4-screensaver
 xfce4-screenshooter
 #xfce4-sensors-plugin
@@ -986,8 +1006,8 @@ base16-alacritty-git
 time
 #pace
 #sparklines-git
-fish
-arcolinux-fish-git
+#fish
+#arcolinux-fish-git
 ###########################################################################
 #                                ISO SPECIFIC
 ###########################################################################
@@ -1005,4 +1025,7 @@ autorandr
 ###########################################################################
 darklinux-awesome-skel-git
 #darklinux-gamemode-git
+darklinux-gtksourceview-4-themes-git
+darklinux-mousepad-dconf-git
+darklinux-mousepad-git
 darklinux-xfce-git

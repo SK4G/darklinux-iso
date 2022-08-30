@@ -18,14 +18,14 @@ set -e
 echo "################################################################"
 echo "####              installing TUI utilities               ######"
 echo "################################################################"
-sudo pacman -S xplr --noconfirm --needed    #terminal explorer
-yay -S --noconfirm --needed sysz            #sytem services manager
-yay -S --noconfirm --needed fuzzy-pkg-finder   #pamac terminal client
+#sudo pacman -S xplr --noconfirm --needed    #terminal explorer
+#yay -S --noconfirm --needed sysz            #sytem services manager
+#yay -S --noconfirm --needed fuzzy-pkg-finder   #pamac terminal client
 #yay -S --noconfirm --needed fzf-open    #search and open. edit default openers $HOME/.config/fzf-open/lopen.sh
 #yay -S --noconfirm --faint-git          #file exploer
-yay -S --noconfirm --needed lsparu      #pamac terminal client
-sudo sed -i 's/default_colors()/burnt_colors()/g' /usr/bin/lsparu   #change lsparu default colors to light theme
-sudo sed -i 's/default_colors/light_colors/g' /usr/bin/lsparu
+#yay -S --noconfirm --needed lsparu      #pamac terminal client
+#sudo sed -i 's/default_colors()/burnt_colors()/g' /usr/bin/lsparu   #change lsparu default colors to light theme
+#sudo sed -i 's/default_colors/light_colors/g' /usr/bin/lsparu
 
 echo "################################################################"
 echo "####          installing ytfzf and dependencies           ######"
@@ -38,7 +38,7 @@ sudo sed -i 's/thumbnail_viewer:=ueberzug/thumbnail_viewer:=kitty/g' /usr/local/
 echo "################################################################"
 echo "####           installing fzf-bash-completion             ######"
 echo "################################################################"
-yay -S --noconfirm --needed fzf-tab-completion
+yay -S --noconfirm --needed fzf-tab-completion-git
 echo "
 source /usr/share/fzf-tab-completion/bash/fzf-bash-completion.sh
 bind -x '\"\t\": fzf_bash_completion'" | sudo tee -a $HOME/.bashrc
