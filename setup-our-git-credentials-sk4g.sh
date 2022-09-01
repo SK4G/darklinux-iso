@@ -61,8 +61,9 @@ case $CHOICE in
 			git config --global user.name "Luiz Salazar"
 			git config --global user.email "luizsalazar87@gmail.com"
 			sudo git config --system core.editor nano
-			git config --global credential.helper cache
-			git config --global credential.helper 'cache --timeout=32000'
+			#git config --global credential.helper cache
+			#git config --global credential.helper 'cache --timeout=32000'
+			git config --global credential.helper store
       ;;
 
     * )
