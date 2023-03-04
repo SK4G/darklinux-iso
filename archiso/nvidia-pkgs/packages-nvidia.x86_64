@@ -152,9 +152,9 @@ xf86-input-evdev
 xf86-input-libinput
 #xf86-input-synaptics
 #xf86-input-vmmouse
-xf86-input-void
-xf86-video-amdgpu
-xf86-video-ati
+#xf86-input-void
+#xf86-video-amdgpu
+#xf86-video-ati
 xf86-video-fbdev
 #xf86-video-intel
 #xf86-video-nouveau
@@ -181,9 +181,27 @@ mesa-utils
 #opencl-mesa
 #primus
 #vulkan-intel
-vulkan-radeon
+#vulkan-radeon
+
+#Nvidia drivers
+arcolinux-meta-steam-nvidia
+vulkan-icd-loader
+nvidia
+nvidia-settings
+nvidia-utils
+libvdpau
+opencl-nvidia
+libxnvctrl
+opencl-icd-loader
+lib32-libvdpau
+lib32-nvidia-utils
+lib32-opencl-icd-loader
+lib32-opencl-nvidia
+lib32-vulkan-icd-loader
+vkbasalt
 
 ###base and base-devel
+base
 base-devel
 
 ###virtual box or virt-manager
@@ -236,7 +254,6 @@ blueberry
 bluez
 bluez-libs
 bluez-utils
-#pulseaudio-bluetooth
 
 ###network
 avahi
@@ -251,7 +268,6 @@ networkmanager-pptp
 networkmanager-vpnc
 openresolv
 samba
-#rtl8821cu-morrownr-dkms-git
 
 ###file management
 gvfs
@@ -296,6 +312,9 @@ libopenraw
 poppler-glib
 poppler-qt5
 
+###android
+#android-sdk-platform-tools
+# android-tools
 
 #########################################################################
 #                  SOFTWARE FROM ARCH LINUX REPOSITORIES
@@ -474,8 +493,8 @@ xapp
 xdo
 xdotool
 xdg-desktop-portal-gtk
-yt-dlp
-#youtube-dl
+#yt-dlp
+youtube-dl
 zenity
 zsh
 zsh-completions
@@ -501,7 +520,7 @@ bibata-cursor-theme-bin
 
 ###editors
 #code
-visual-studio-code-bin
+#visual-studio-code-bin
 
 ###fonts
 ttf-font-awesome
@@ -576,9 +595,8 @@ yay-bin
 ###########################################################################
 #                               GAMES
 ###########################################################################
-aroclinux-meta-steam-amd
-#aroclinux-meta-steam-intel
-#aroclinux-meta-steam-nvidia
+
+#arcolinux-meta-steam
 #lutris
 #sauerbraten
 #xonotic
@@ -659,8 +677,7 @@ archlinux-tweak-tool-git
 #arcolinux-volumeicon-git
 arcolinux-wallpapers-git
 #arcolinux-wallpapers-dual-git
-#arcolinux-wayland-profile-git
-arcolinux-xfce-panel-profiles-git
+#arcolinux-xfce-panel-profiles-git
 #arcolinux-xmobar-git
 arcolinux-zsh-git
 
@@ -918,7 +935,7 @@ menulibre
 ###i3wm
 #i3status
 #i3blocks
-#i3-wm
+#i3-gaps
 #autotiling
 
 ###########################################################################
@@ -1043,11 +1060,3 @@ darklinux-gtksourceview-4-themes-git
 darklinux-mousepad-dconf-git
 darklinux-mousepad-git
 darklinux-xfce-git
-
-
-###android
-#android-sdk-platform-tools
-#android-tools
-#jetbrains-toolbox
-
-#xournalpp 
