@@ -19,7 +19,7 @@ echo "################################################################"
 echo "####               installing AUR Packages                ######"
 echo "################################################################"
 yay -S --noconfirm --needed brother-hll2315dw
-
+yay -S --noconfirm --needed apk-editor-studio-bin
 
 echo "################################################################"
 echo "####                AUR Packages installed                ######"

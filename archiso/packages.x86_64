@@ -276,9 +276,10 @@ gtk3-print-backends
 gutenprint
 libcups
 libxcrypt-compat
-#hplip
-splix
 system-config-printer
+#hplip
+#splix
+
 
 ###thermal printer tools
 #acroread
@@ -286,6 +287,7 @@ evince
 #lprint
 texlive-core
 pdftk
+pdfarranger
 
 ###tumbler
 tumbler
@@ -401,7 +403,8 @@ dconf-editor
 dex
 #discord
 #dmidecode
-duf-bin
+duf
+#duf-bin
 edid-decode-git
 evince
 expac
@@ -554,7 +557,7 @@ neofetch
 arcolinux-pamac-all
 #pamac-aur
 paru-bin
-#peek
+peek
 #pyakm
 python-pyparted
 #python-pywal
@@ -576,9 +579,9 @@ yay-bin
 ###########################################################################
 #                               GAMES
 ###########################################################################
-aroclinux-meta-steam-amd
-#aroclinux-meta-steam-intel
-#aroclinux-meta-steam-nvidia
+arcolinux-meta-steam-amd
+#arcolinux-meta-steam-intel
+#arcolinux-meta-steam-nvidia
 #lutris
 #sauerbraten
 #xonotic
@@ -1050,4 +1053,7 @@ darklinux-xfce-git
 #android-tools
 #jetbrains-toolbox
 
-#xournalpp 
+#xournalpp
+python-pip
+sshpass
+#gamescope
