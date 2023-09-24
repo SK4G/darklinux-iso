@@ -68,7 +68,7 @@ man-db
 man-pages
 mc
 mdadm
-memtest86+
+#memtest86+
 memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
@@ -84,7 +84,7 @@ nilfs-utils
 ntfs-3g
 nvme-cli
 open-iscsi
-open-vm-tools
+#open-vm-tools
 openconnect
 openssh
 openvpn
@@ -156,7 +156,7 @@ xf86-input-void
 xf86-video-amdgpu
 xf86-video-ati
 xf86-video-fbdev
-#xf86-video-intel
+xf86-video-intel
 #xf86-video-nouveau
 xf86-video-openchrome
 #xf86-video-qxl
@@ -173,17 +173,18 @@ mesa
 #nvidia
 #nvidia-utils
 #nvidia-settings
-#libva-intel-driver
-libva-mesa-driver
+libva-intel-driver
+#libva-mesa-driver
 #libva-vdpau-driver
 mesa-utils
 #mesa-vdpau
 #opencl-mesa
 #primus
-#vulkan-intel
-vulkan-radeon
+vulkan-intel
+#vulkan-radeon
 
 ###base and base-devel
+base
 base-devel
 
 ###virtual box or virt-manager
@@ -276,10 +277,9 @@ gtk3-print-backends
 gutenprint
 libcups
 libxcrypt-compat
-system-config-printer
 #hplip
-#splix
-
+splix
+system-config-printer
 
 ###thermal printer tools
 #acroread
@@ -287,6 +287,8 @@ evince
 #lprint
 texlive-core
 pdftk
+
+### pdf tools
 pdfarranger
 
 ###tumbler
@@ -298,6 +300,12 @@ libopenraw
 poppler-glib
 poppler-qt5
 
+###android
+android-sdk-platform-tools
+android-tools
+
+###laptop tools
+brightnessctl
 
 #########################################################################
 #                  SOFTWARE FROM ARCH LINUX REPOSITORIES
@@ -319,6 +327,7 @@ gimp
 #gmrun
 #gsimplecal
 guvcview
+haruna
 imagemagick
 inkscape
 #libreoffice-fresh
@@ -333,7 +342,7 @@ numlockx
 simplescreenrecorder
 termite
 #variety
-vlc
+#vlc
 
 ####btrfs support with autosnapshots
 grub-btrfs
@@ -388,7 +397,6 @@ zoom
 arc-gtk-theme
 arc-darkest-theme-git
 kvantum
-#kvantum-qt5
 #openbox-arc-git
 
 ###utilities
@@ -402,6 +410,7 @@ catfish
 dconf-editor
 dex
 #discord
+duf
 #dmidecode
 duf
 #duf-bin
@@ -451,9 +460,8 @@ polkit-gnome
 qt5ct
 #qt5-styleplugins
 #qt5-tools
-qt5-webkit
+#qt5-webkit
 #powertop
-#redshift
 ripgrep
 #rofi
 rxvt-unicode
@@ -554,10 +562,11 @@ mintstick-git
 ncdu
 neofetch
 #numix-gtk-theme-git
-arcolinux-pamac-all
+#arcolinux-pamac-all
+pamac-gtk
 #pamac-aur
 paru-bin
-peek
+#peek
 #pyakm
 python-pyparted
 #python-pywal
@@ -579,7 +588,7 @@ yay-bin
 ###########################################################################
 #                               GAMES
 ###########################################################################
-arcolinux-meta-steam-amd
+#arcolinux-meta-steam-amd
 #arcolinux-meta-steam-intel
 #arcolinux-meta-steam-nvidia
 #lutris
@@ -663,7 +672,7 @@ archlinux-tweak-tool-git
 arcolinux-wallpapers-git
 #arcolinux-wallpapers-dual-git
 #arcolinux-wayland-profile-git
-arcolinux-xfce-panel-profiles-git
+#arcolinux-xfce-panel-profiles-git
 #arcolinux-xmobar-git
 arcolinux-zsh-git
 
@@ -995,6 +1004,7 @@ xfce4-clipman-plugin
 #xfce4-netload-plugin
 #xfce4-notes-plugin
 xfce4-notifyd
+#xfce4-pulseaudio-plugin
 #xfce4-screensaver
 xfce4-screenshooter
 #xfce4-sensors-plugin
@@ -1030,7 +1040,7 @@ time
 ###########################################################################
 
 #polybar
-#polybar
+mkinitcpio-firmware
 
 #desktop specific awesome
 awesome

@@ -296,6 +296,8 @@ libopenraw
 poppler-glib
 poppler-qt5
 
+###laptop tools
+brightnessctl
 
 #########################################################################
 #                  SOFTWARE FROM ARCH LINUX REPOSITORIES

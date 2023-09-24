@@ -66,10 +66,11 @@ sed -i 's/arcolinuxl/darklinux/g' $HOME/arcolinuxl-iso/archiso/profiledef.sh
 sed -i 's/ArcoLinux/DarkLinux/g' $HOME/arcolinuxl-iso/archiso/profiledef.sh
 
 
+basedir=/mnt/SeagateNFS
 # cp $HOME/arcolinuxs-iso/archiso/packages.x86_64 $HOME/arcolinuxl-iso/archiso/arcoS-packages.x86_64
 mv $HOME/arcolinuxl-iso/archiso/packages.x86_64 $HOME/arcolinuxl-iso/archiso/packages.x86_64-original
-cp /mnt/TEAM-1TB/darklinux-iso/archiso/packages.x86_64 $HOME/arcolinuxl-iso/archiso/packages.x86_64
+cp $basedir/darklinux-iso/archiso/packages.x86_64 $HOME/arcolinuxl-iso/archiso/packages.x86_64
 
 #cp bashrc-personal
-sed -i '175 i rsync -av /mnt/TEAM-1TB/darklinux-iso/archiso/airootfs/etc/skel/.bashrc-personal $buildFolder/archiso/airootfs/etc/skel/.bashrc-personal\n' $HOME/arcolinuxl-iso/installation-scripts/30-build-the-iso-the-first-time.sh
-sed -i '175 i rsync -av /mnt/TEAM-1TB/darklinux-iso/archiso/airootfs/etc/skel/.bashrc-personal $buildFolder/archiso/airootfs/etc/skel/.bashrc-personal\n' $HOME/arcolinuxl-iso/installation-scripts/40-build-the-iso-local-again.sh
+sed -i '175 i rsync -av /mnt/SeagateNFS/darklinux-iso/archiso/airootfs/etc/skel/.bashrc-personal $buildFolder/archiso/airootfs/etc/skel/.bashrc-personal\n' $HOME/arcolinuxl-iso/installation-scripts/30-build-the-iso-the-first-time.sh
+sed -i '175 i rsync -av /mnt/SeagateNFS/darklinux-iso/archiso/airootfs/etc/skel/.bashrc-personal $buildFolder/archiso/airootfs/etc/skel/.bashrc-personal\n' $HOME/arcolinuxl-iso/installation-scripts/40-build-the-iso-local-again.sh

@@ -1,5 +1,6 @@
 export PATH="/usr/bin/gcc:$PATH"
 export PATH="/home/luiz/.cargo/bin:$PATH"
+export PATH="$HOME/miniconda3/bin:$PATH"
 #alias adb-connect="adb kill-server && adb tcpip 5555 && adb connect 192.168.1.109"
 #alias adb-write-ss="adb shell pm grant net.dinglisch.android.taskerm android.permission.WRITE_SECURE_SETTINGS"
 #alias adb-list-apks="adb shell pm list packages -f -3 > apks.txt"
@@ -17,6 +18,7 @@ alias makepkg-v2="makepkg && mv *.pkg.tar.zst /mnt/SeagateNFS/darklinux/darklinu
 alias yta="yt-dlp -f bestaudio[ext=m4a] -S vbr -o '$HOME/Music/%(playlist_title)s/%(title)s.%(ext)s' --compat-options embed-thumbnail-atomicparsley"
 alias ytv="youtube-dl -f bestvideo+bestaudio -o '$HOME/Videos/%(title)s.%(ext)s' "
 alias spotdl="cd $HOME/Music/spotdl/ && spotdl --format m4a"
+alias pvc="protonvpn-cli c -f"
 alias tra="transmission-remote -a"
 alias rc.lua="mousepad $HOME/.config/awesome/rc.lua"
 alias lua-update="rsync -r -t -v --progress -s /etc/skel/.config/awesome $HOME/.config/awesome/"
@@ -25,6 +27,7 @@ alias fix-arch-keys="sudo pacman -S archlinux-keyring &&
 sudo pacman-key --init &&
 sudo pacman-key --populate archlinux &&
 sudo pacman-key --populate arcolinux"
+alias bin-update="sudo rsync -av /etc/skel/.bin/* $HOME/.bin/"
 alias virt-guest-share="sudo mkdir /mnt/vm-share
 sudo mount -t virtiofs /mnt/vm-share /mnt/vm-share
 echo '

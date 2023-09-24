@@ -288,6 +288,9 @@ evince
 texlive-core
 pdftk
 
+### pdf tools
+pdfarranger
+
 ###tumbler
 tumbler
 ffmpegthumbnailer
@@ -300,6 +303,9 @@ poppler-qt5
 ###android
 android-sdk-platform-tools
 android-tools
+
+###laptop tools
+brightnessctl
 
 #########################################################################
 #                  SOFTWARE FROM ARCH LINUX REPOSITORIES
@@ -321,6 +327,7 @@ gimp
 #gmrun
 #gsimplecal
 guvcview
+haruna
 imagemagick
 inkscape
 #libreoffice-fresh
@@ -335,7 +342,7 @@ numlockx
 simplescreenrecorder
 termite
 #variety
-vlc
+#vlc
 
 ####btrfs support with autosnapshots
 grub-btrfs
@@ -390,7 +397,6 @@ zoom
 arc-gtk-theme
 arc-darkest-theme-git
 kvantum
-#kvantum-qt5
 #openbox-arc-git
 
 ###utilities
@@ -404,6 +410,7 @@ catfish
 dconf-editor
 dex
 #discord
+duf
 #dmidecode
 duf
 #duf-bin
@@ -453,9 +460,8 @@ polkit-gnome
 qt5ct
 #qt5-styleplugins
 #qt5-tools
-qt5-webkit
+#qt5-webkit
 #powertop
-#redshift
 ripgrep
 #rofi
 rxvt-unicode
@@ -556,7 +562,8 @@ mintstick-git
 ncdu
 neofetch
 #numix-gtk-theme-git
-arcolinux-pamac-all
+#arcolinux-pamac-all
+pamac-gtk
 #pamac-aur
 paru-bin
 #peek
@@ -1033,7 +1040,7 @@ time
 ###########################################################################
 
 #polybar
-#polybar
+mkinitcpio-firmware
 
 #desktop specific awesome
 awesome
